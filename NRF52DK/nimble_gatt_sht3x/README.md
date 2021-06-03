@@ -1,8 +1,8 @@
 NimBLE GATT Server Example
 ==========================
 This example application configures and runs the NimBLE BLE stack as simple GATT
-server. It will provide two services, the built-in GAP and the built-in GATT
-service. The device will advertise itself by the name `NimBLE on RIOT`.
+server. It will provide one service for environmental sensing.
+The device will advertise itself by the name `NimBLE SHT31-D example`.
 
 To interact with the BLE device running this example, use any BLE client that is
 able to discover and interact with GATT services.
