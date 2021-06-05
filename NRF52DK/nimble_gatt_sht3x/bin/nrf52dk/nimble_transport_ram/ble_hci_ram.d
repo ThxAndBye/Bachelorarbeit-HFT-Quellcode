@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_transport_ram/ble_hci_ram.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_transport_ram/ble_hci_ram.o: \
  /home/popos/RIOT/build/pkg/nimble/nimble/transport/ram/src/ble_hci_ram.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/core/include/assert.h \
  /home/popos/RIOT/core/include/panic.h \
  /home/popos/RIOT/core/include/kernel_defines.h \
@@ -70,7 +70,7 @@
  /home/popos/RIOT/build/pkg/nimble/nimble/include/nimble/ble_hci_trans.h \
  /home/popos/RIOT/build/pkg/nimble/nimble/transport/ram/include/transport/ram/ble_hci_ram.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/core/include/assert.h:
 

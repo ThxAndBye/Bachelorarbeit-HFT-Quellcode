@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/ztimer_core/convert_shift.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/ztimer_core/convert_shift.o: \
  /home/popos/RIOT/sys/ztimer/convert_shift.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/nano/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -52,7 +52,7 @@
  /home/popos/RIOT/sys/include/ztimer/convert_shift.h \
  /home/popos/RIOT/core/include/debug.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/include/newlib/stdio.h:
 

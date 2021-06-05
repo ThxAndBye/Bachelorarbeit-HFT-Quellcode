@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/core/init.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/core/init.o: \
  /home/popos/RIOT/core/init.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
  /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
@@ -53,7 +53,7 @@
  /home/popos/RIOT/core/include/debug.h \
  /home/popos/RIOT/core/include/thread.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h:
 

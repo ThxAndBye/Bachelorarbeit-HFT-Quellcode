@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/cpu/spi_twi_irq.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/cpu/spi_twi_irq.o: \
  /home/popos/RIOT/cpu/nrf52/spi_twi_irq.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/core/include/assert.h \
  /home/popos/RIOT/core/include/panic.h \
  /home/popos/RIOT/core/include/kernel_defines.h \
@@ -48,7 +48,7 @@
  /home/popos/RIOT/cpu/nrf52/include/periph_cpu.h \
  /home/popos/RIOT/cpu/nrf5x_common/include/periph_cpu_common.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/core/include/assert.h:
 

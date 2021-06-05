@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/checksum/fletcher16.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/checksum/fletcher16.o: \
  /home/popos/RIOT/sys/checksum/fletcher16.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/sys/include/checksum/fletcher16.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/ieeefp.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/nano/newlib.h \
@@ -16,7 +16,7 @@
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /usr/include/newlib/sys/cdefs.h /usr/include/newlib/machine/stdlib.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/sys/include/checksum/fletcher16.h:
 

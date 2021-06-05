@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_porting_nimble/os_mbuf.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_porting_nimble/os_mbuf.o: \
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/src/os_mbuf.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/include/os/os.h \
  /home/popos/RIOT/core/include/assert.h \
  /home/popos/RIOT/core/include/panic.h \
@@ -70,7 +70,7 @@
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/build/pkg/nimble/porting/nimble/include/os/os.h:
 

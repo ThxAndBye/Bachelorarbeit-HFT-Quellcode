@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/periph_common/pm.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/periph_common/pm.o: \
  /home/popos/RIOT/drivers/periph_common/pm.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/core/include/irq.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
  /home/popos/RIOT/cpu/nrf52/include/cpu_conf.h \
@@ -50,7 +50,7 @@
  /home/popos/RIOT/core/include/debug.h \
  /home/popos/RIOT/core/include/thread.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/core/include/irq.h:
 

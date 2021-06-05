@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_porting_nimble/hal_timer.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_porting_nimble/hal_timer.o: \
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/src/hal_timer.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/nano/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -84,7 +84,7 @@
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/include/hal/hal_timer.h \
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/include/os/os_trace_api.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/include/newlib/string.h:
 

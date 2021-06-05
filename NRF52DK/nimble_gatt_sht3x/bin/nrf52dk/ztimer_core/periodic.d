@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/ztimer_core/periodic.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/ztimer_core/periodic.o: \
  /home/popos/RIOT/sys/ztimer/periodic.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/nano/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -52,7 +52,7 @@
  /home/popos/RIOT/core/include/mutex.h \
  /home/popos/RIOT/sys/include/ztimer/periodic.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/include/newlib/errno.h:
 

@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/periph_common/spi.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/periph_common/spi.o: \
  /home/popos/RIOT/drivers/periph_common/spi.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
  /home/popos/RIOT/boards/nrf52dk/include/board.h \
  /home/popos/RIOT/boards/common/nrf52/include/board_common.h \
@@ -59,7 +59,7 @@
  /home/popos/RIOT/boards/common/nrf52/include/cfg_timer_default.h \
  /home/popos/RIOT/drivers/include/periph/gpio.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
 

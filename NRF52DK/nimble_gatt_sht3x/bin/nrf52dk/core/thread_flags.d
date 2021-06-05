@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/core/thread_flags.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/core/thread_flags.o: \
  /home/popos/RIOT/core/thread_flags.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/core/include/thread_flags.h \
  /home/popos/RIOT/core/include/sched.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
@@ -45,7 +45,7 @@
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
  /home/popos/RIOT/core/include/thread.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/core/include/thread_flags.h:
 

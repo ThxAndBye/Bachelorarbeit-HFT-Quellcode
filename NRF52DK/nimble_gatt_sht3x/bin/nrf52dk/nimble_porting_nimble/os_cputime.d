@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_porting_nimble/os_cputime.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_porting_nimble/os_cputime.o: \
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/src/os_cputime.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/nano/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -20,7 +20,7 @@
  /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/include/os/queue.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/include/newlib/string.h:
 

@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_host/ble_hs_misc.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_host/ble_hs_misc.o: \
  /home/popos/RIOT/build/pkg/nimble/nimble/host/src/ble_hs_misc.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/core/include/assert.h \
  /home/popos/RIOT/core/include/panic.h \
  /home/popos/RIOT/core/include/kernel_defines.h \
@@ -118,7 +118,7 @@
  /home/popos/RIOT/build/pkg/nimble/nimble/host/src/ble_uuid_priv.h \
  /home/popos/RIOT/build/pkg/nimble/nimble/host/include/host/ble_monitor.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/core/include/assert.h:
 

@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nrf52_vectors/vectors_nrf52832xxaa.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nrf52_vectors/vectors_nrf52832xxaa.o: \
  /home/popos/RIOT/cpu/nrf52/vectors/vectors_nrf52832xxaa.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /home/popos/RIOT/cpu/cortexm_common/include/cpu.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
@@ -46,7 +46,7 @@
  /home/popos/RIOT/cpu/cortexm_common/include/thread_arch.h \
  /home/popos/RIOT/cpu/cortexm_common/include/vectors_cortexm.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h:
 

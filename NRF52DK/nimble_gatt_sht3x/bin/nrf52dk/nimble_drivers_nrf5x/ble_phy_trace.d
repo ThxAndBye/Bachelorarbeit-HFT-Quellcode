@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_drivers_nrf5x/ble_phy_trace.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_drivers_nrf5x/ble_phy_trace.o: \
  /home/popos/RIOT/build/pkg/nimble/nimble/drivers/nrf52/src/ble_phy_trace.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /home/popos/RIOT/build/pkg/nimble/porting/npl/riot/include/syscfg/syscfg.h \
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/include/os/os_trace_api.h \
@@ -69,7 +69,7 @@
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/include/os/os_mbuf.h \
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/include/os/os_mempool.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h:
 

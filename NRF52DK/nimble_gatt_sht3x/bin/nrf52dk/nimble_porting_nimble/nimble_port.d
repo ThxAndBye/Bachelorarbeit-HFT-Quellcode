@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_porting_nimble/nimble_port.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_porting_nimble/nimble_port.o: \
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/src/nimble_port.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/include/os/os.h \
  /home/popos/RIOT/core/include/assert.h \
@@ -103,7 +103,7 @@
  /home/popos/RIOT/build/pkg/nimble/nimble/transport/ram/include/transport/ram/ble_hci_ram.h \
  /home/popos/RIOT/build/pkg/nimble/nimble/include/nimble/ble_hci_trans.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
 

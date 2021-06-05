@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/newlib_syscalls_default/syscalls.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/newlib_syscalls_default/syscalls.o: \
  /home/popos/RIOT/sys/newlib_syscalls_default/syscalls.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/include/newlib/unistd.h /usr/include/newlib/sys/unistd.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/nano/newlib.h \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
@@ -81,7 +81,7 @@
  /home/popos/RIOT/drivers/include/periph/timer.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/include/newlib/unistd.h:
 

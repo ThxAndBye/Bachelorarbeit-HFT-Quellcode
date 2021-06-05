@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_controller/ble_ll_iso.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_controller/ble_ll_iso.o: \
  /home/popos/RIOT/build/pkg/nimble/nimble/controller/src/ble_ll_iso.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /home/popos/RIOT/build/pkg/nimble/porting/npl/riot/include/syscfg/syscfg.h \
  /home/popos/RIOT/build/pkg/nimble/nimble/include/nimble/ble.h \
@@ -68,7 +68,7 @@
  /home/popos/RIOT/build/pkg/nimble/nimble/include/nimble/ble.h \
  /home/popos/RIOT/build/pkg/nimble/nimble/controller/include/controller/ble_ll_iso.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h:
 

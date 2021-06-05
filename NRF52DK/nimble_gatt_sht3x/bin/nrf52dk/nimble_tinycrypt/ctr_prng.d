@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_tinycrypt/ctr_prng.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_tinycrypt/ctr_prng.o: \
  /home/popos/RIOT/build/pkg/nimble/ext/tinycrypt/src/ctr_prng.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/build/pkg/nimble/ext/tinycrypt/include/tinycrypt/ctr_prng.h \
  /home/popos/RIOT/build/pkg/nimble/ext/tinycrypt/include/tinycrypt/aes.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
@@ -20,7 +20,7 @@
  /home/popos/RIOT/core/include/kernel_defines.h \
  /usr/include/newlib/sys/cdefs.h /usr/include/newlib/sys/string.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/build/pkg/nimble/ext/tinycrypt/include/tinycrypt/ctr_prng.h:
 

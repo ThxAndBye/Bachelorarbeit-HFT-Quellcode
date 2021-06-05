@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_riot_contrib/nimble_riot.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_riot_contrib/nimble_riot.o: \
  /home/popos/RIOT/pkg/nimble/contrib/nimble_riot.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/core/include/assert.h \
  /home/popos/RIOT/core/include/panic.h \
  /home/popos/RIOT/core/include/kernel_defines.h \
@@ -104,7 +104,7 @@
  /home/popos/RIOT/build/pkg/nimble/porting/nimble/include/hal/hal_timer.h \
  /home/popos/RIOT/build/pkg/nimble/nimble/controller/include/controller/ble_phy.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/core/include/assert.h:
 

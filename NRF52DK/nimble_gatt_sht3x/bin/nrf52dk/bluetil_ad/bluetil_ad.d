@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/bluetil_ad/bluetil_ad.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/bluetil_ad/bluetil_ad.o: \
  /home/popos/RIOT/sys/net/ble/bluetil/bluetil_ad/bluetil_ad.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/nano/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -17,7 +17,7 @@
  /home/popos/RIOT/sys/include/net/bluetil/ad.h \
  /home/popos/RIOT/sys/include/net/ble.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/include/newlib/string.h:
 

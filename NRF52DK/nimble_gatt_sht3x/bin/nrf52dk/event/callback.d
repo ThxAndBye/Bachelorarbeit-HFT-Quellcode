@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/event/callback.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/event/callback.o: \
  /home/popos/RIOT/sys/event/callback.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/sys/include/event/callback.h \
  /home/popos/RIOT/sys/include/event.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
@@ -53,7 +53,7 @@
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdatomic.h \
  /home/popos/RIOT/core/include/mutex.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/sys/include/event/callback.h:
 

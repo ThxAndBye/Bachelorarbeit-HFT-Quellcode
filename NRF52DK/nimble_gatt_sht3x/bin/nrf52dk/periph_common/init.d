@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/periph_common/init.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/periph_common/init.o: \
  /home/popos/RIOT/drivers/periph_common/init.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/cpu/nrf52/include/periph_cpu.h \
  /home/popos/RIOT/cpu/nrf5x_common/include/periph_cpu_common.h \
  /home/popos/RIOT/cpu/cortexm_common/include/cpu.h \
@@ -58,7 +58,7 @@
  /home/popos/RIOT/boards/common/nrf52/include/board_common.h \
  /home/popos/RIOT/drivers/include/periph/rtt.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/cpu/nrf52/include/periph_cpu.h:
 

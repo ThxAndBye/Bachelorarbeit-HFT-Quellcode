@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/core/atomic_c11.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/core/atomic_c11.o: \
  /home/popos/RIOT/core/atomic_c11.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/ieeefp.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/nano/newlib.h \
@@ -30,7 +30,7 @@
  /home/popos/RIOT/cpu/nrf52/include/vendor/nrf52832_peripherals.h \
  /home/popos/RIOT/cpu/cortexm_common/include/irq_arch.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
 

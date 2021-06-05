@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_tinycrypt/ccm_mode.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_tinycrypt/ccm_mode.o: \
  /home/popos/RIOT/build/pkg/nimble/ext/tinycrypt/src/ccm_mode.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/build/pkg/nimble/ext/tinycrypt/include/tinycrypt/ccm_mode.h \
  /home/popos/RIOT/build/pkg/nimble/ext/tinycrypt/include/tinycrypt/aes.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
@@ -23,7 +23,7 @@
  /usr/include/newlib/sys/_pthreadtypes.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/build/pkg/nimble/ext/tinycrypt/include/tinycrypt/ccm_mode.h:
 

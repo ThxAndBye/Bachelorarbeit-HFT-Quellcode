@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/sht3x/sht3x.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/sht3x/sht3x.o: \
  /home/popos/RIOT/drivers/sht3x/sht3x.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/core/include/debug.h /usr/include/newlib/stdio.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/nano/newlib.h \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
@@ -75,7 +75,7 @@
  /home/popos/RIOT/sys/include/xtimer/implementation.h \
  /home/popos/RIOT/drivers/include/periph/timer.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/core/include/debug.h:
 

@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/ztimer_core/auto_init.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/ztimer_core/auto_init.o: \
  /home/popos/RIOT/sys/ztimer/auto_init.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/core/include/kernel_defines.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
@@ -76,7 +76,7 @@
  /home/popos/RIOT/sys/include/ztimer/config.h \
  /home/popos/RIOT/core/include/log.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/core/include/kernel_defines.h:
 

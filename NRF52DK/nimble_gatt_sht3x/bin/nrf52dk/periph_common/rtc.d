@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/periph_common/rtc.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/periph_common/rtc.o: \
  /home/popos/RIOT/drivers/periph_common/rtc.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/ieeefp.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/nano/newlib.h \
@@ -61,7 +61,7 @@
  /home/popos/RIOT/boards/nrf52dk/include/board.h \
  /home/popos/RIOT/boards/common/nrf52/include/board_common.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h:
 

@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_controller/ble_ll_rand.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_controller/ble_ll_rand.o: \
  /home/popos/RIOT/build/pkg/nimble/nimble/controller/src/ble_ll_rand.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/ieeefp.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/nano/newlib.h \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
@@ -76,7 +76,7 @@
  /home/popos/RIOT/build/pkg/nimble/nimble/include/nimble/hci_common.h \
  /home/popos/RIOT/build/pkg/nimble/nimble/include/nimble/ble.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/include/newlib/stdlib.h:
 

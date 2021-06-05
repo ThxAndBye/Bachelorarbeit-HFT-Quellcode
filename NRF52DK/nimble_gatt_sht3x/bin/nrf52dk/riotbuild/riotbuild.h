@@ -3,7 +3,7 @@
 #define CPU_FAM_NRF52 1
 #define CPU_MODEL_NRF52832XXAA 1
 #define CPU_CORE_CORTEX_M4F 1
-#define RIOT_APPLICATION "nimble_gatt"
+#define RIOT_APPLICATION "nimble_gatt_sht3x"
 #define BOARD_NRF52DK "nrf52dk"
 #define RIOT_BOARD BOARD_NRF52DK
 #define CPU_NRF52 "nrf52"

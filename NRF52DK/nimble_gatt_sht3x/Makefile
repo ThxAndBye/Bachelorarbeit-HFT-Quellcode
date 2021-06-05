@@ -1,5 +1,5 @@
 # name of your application
-APPLICATION = nimble_gatt_sht31x
+APPLICATION = nimble_gatt_sht3x
 
 # If no BOARD is found in the environment, use this default:
 BOARD ?= nrf52dk

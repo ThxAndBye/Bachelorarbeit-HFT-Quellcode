@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/checksum/ucrc16.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/checksum/ucrc16.o: \
  /home/popos/RIOT/sys/checksum/ucrc16.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/core/include/assert.h \
  /home/popos/RIOT/core/include/panic.h \
  /home/popos/RIOT/core/include/kernel_defines.h \
@@ -18,7 +18,7 @@
  /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
  /usr/include/newlib/machine/stdlib.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/core/include/assert.h:
 

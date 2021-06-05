@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/periph_common/gpio_util.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/periph_common/gpio_util.o: \
  /home/popos/RIOT/drivers/periph_common/gpio_util.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/drivers/include/periph/gpio.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
  /home/popos/RIOT/cpu/nrf52/include/periph_cpu.h \
@@ -57,7 +57,7 @@
  /home/popos/RIOT/boards/nrf52dk/include/board.h \
  /home/popos/RIOT/boards/common/nrf52/include/board_common.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/drivers/include/periph/gpio.h:
 

@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_host_store_ram/ble_store_ram.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_host_store_ram/ble_store_ram.o: \
  /home/popos/RIOT/build/pkg/nimble/nimble/host/store/ram/src/ble_store_ram.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /usr/include/newlib/inttypes.h /usr/include/newlib/nano/newlib.h \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
  /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
@@ -97,7 +97,7 @@
  /home/popos/RIOT/build/pkg/nimble/nimble/host/include/host/ble_store.h \
  /home/popos/RIOT/build/pkg/nimble/nimble/host/store/ram/include/store/ram/ble_store_ram.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /usr/include/newlib/inttypes.h:
 

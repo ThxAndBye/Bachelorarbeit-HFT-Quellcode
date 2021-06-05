@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nimble_host/ble_hs_cfg.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nimble_host/ble_hs_cfg.o: \
  /home/popos/RIOT/build/pkg/nimble/nimble/host/src/ble_hs_cfg.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/build/pkg/nimble/porting/npl/riot/include/syscfg/syscfg.h \
  /home/popos/RIOT/build/pkg/nimble/nimble/host/include/host/ble_hs.h \
  /usr/include/newlib/inttypes.h /usr/include/newlib/nano/newlib.h \
@@ -95,7 +95,7 @@
  /home/popos/RIOT/build/pkg/nimble/nimble/host/include/host/ble_sm.h \
  /home/popos/RIOT/build/pkg/nimble/nimble/host/include/host/ble_store.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/build/pkg/nimble/porting/npl/riot/include/syscfg/syscfg.h:
 

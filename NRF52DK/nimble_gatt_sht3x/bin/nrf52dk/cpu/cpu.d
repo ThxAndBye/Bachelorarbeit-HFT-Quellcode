@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/cpu/cpu.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/cpu/cpu.o: \
  /home/popos/RIOT/cpu/nrf52/cpu.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/cpu/cortexm_common/include/cpu.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/nano/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -60,7 +60,7 @@
  /home/popos/RIOT/sys/include/stdio_base.h /usr/include/newlib/unistd.h \
  /usr/include/newlib/sys/unistd.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/cpu/cortexm_common/include/cpu.h:
 

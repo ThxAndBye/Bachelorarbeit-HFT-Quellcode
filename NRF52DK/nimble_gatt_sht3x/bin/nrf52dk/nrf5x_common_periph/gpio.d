@@ -1,6 +1,6 @@
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/nrf5x_common_periph/gpio.o: \
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/nrf5x_common_periph/gpio.o: \
  /home/popos/RIOT/cpu/nrf5x_common/periph/gpio.c \
- /home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h \
+ /home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h \
  /home/popos/RIOT/core/include/assert.h \
  /home/popos/RIOT/core/include/panic.h \
  /home/popos/RIOT/core/include/kernel_defines.h \
@@ -58,7 +58,7 @@
  /home/popos/RIOT/boards/nrf52dk/include/board.h \
  /home/popos/RIOT/boards/common/nrf52/include/board_common.h
 
-/home/popos/RIOT/examples/nimble_gatt/bin/nrf52dk/riotbuild/riotbuild.h:
+/home/popos/RIOT/examples/nimble_gatt_sht3x/bin/nrf52dk/riotbuild/riotbuild.h:
 
 /home/popos/RIOT/core/include/assert.h:
 
