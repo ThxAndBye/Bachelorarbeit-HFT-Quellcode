@@ -1,0 +1,34 @@
+{
+    //  VSCode Debugger Config for Cortex Debug Extension.  We use Cortex Debug because it shows more details, e.g. the STM32 Peripherals.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "${relativeFileDirname}/bin/nrf52dk/nimble_gatt_sht3x.elf",
+            "name": "Debug Microcontroller",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "openOCDPreConfigLaunchCommands": [
+                "source [find interface/jlink.cfg]",
+                "transport select swd"
+            ],
+            "configFiles": [
+                "target/nrf52.cfg"
+            ],
+            "openOCDLaunchCommands": [
+                "init",
+                "targets",
+                "halt"
+            ],
+            "postLaunchCommands": [
+                //  After loading the Application, run these gdb commands
+                "break main",                        //  Break at main()
+                "break __assert_func",               //  Break for any C assert failures
+                "break os_default_irq",              //  Break for any Mynewt unhandled interrupts
+                "continue",                          //  Run to first breakpoint (main())
+            ],
+        }
+
+    ]
+}

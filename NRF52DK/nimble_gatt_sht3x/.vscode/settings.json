@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "sht3x_params.h": "c"
+    },
+    "cortex-debug.gdbPath": "gdb-multiarch",
+}
