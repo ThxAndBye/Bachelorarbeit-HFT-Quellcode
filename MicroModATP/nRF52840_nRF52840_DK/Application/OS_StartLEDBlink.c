@@ -27,8 +27,9 @@
 
 -------------------------- END-OF-HEADER -----------------------------
 File    : OS_StartLEDBlink.c
-Purpose : embOS sample program running two simple tasks, each toggling
-          an LED of the target hardware (as configured in BSP.c).
+Purpose : embOS sample program running two simple tasks, one toggling
+          an LED of the target hardware (as configured in BSP.c) and 
+          the other calculating prime numbers and reporting them via RTT.
 */
 
 #include "BSP.h"
