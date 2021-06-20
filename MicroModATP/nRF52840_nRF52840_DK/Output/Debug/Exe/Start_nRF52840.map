@@ -1,0 +1,1525 @@
+***********************************************************************************************
+***                                                                                         ***
+***                                    LINK INFORMATION                                     ***
+***                                                                                         ***
+***********************************************************************************************
+
+Linker version:
+
+  SEGGER ARM Linker 4.10.1 compiled Jun  4 2021 19:08:05
+  Copyright (c) 2017-2021 SEGGER Microcontroller GmbH    www.segger.com
+
+
+***********************************************************************************************
+***                                                                                         ***
+***                                     MODULE SUMMARY                                      ***
+***                                                                                         ***
+***********************************************************************************************
+
+Memory use by input file:
+
+  Object File                                       RX Code     RO Data     RW Data     ZI Data
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  BSP.o                                                 114                                    
+  HardFaultHandler.o                                     24                                    
+  JLINKMEM_Process.o                                  1 152                                  45
+  OS_Error.o                                             64                                    
+  OS_StartLEDBlink.o                                    272          21                   1 208
+  RTOSInit_nRF5x.o                                      750           4                        
+  SEGGER_HardFaultHandler.o                             266                                  68
+  SEGGER_RTT.o                                        1 436          20                   1 208
+  SEGGER_RTT_ASM_ARMv7M.o                               148                                    
+  SEGGER_SYSVIEW.o                                    5 662          18                   1 308
+  SEGGER_SYSVIEW_Config_embOS.o                         130          59                        
+  SEGGER_SYSVIEW_embOS.o                                144         100                        
+  SEGGER_THUMB_Startup.o                                 20                                    
+  SEGGER_crtinit_v7em_little.o                           98                                    
+  ses_startup_nrf52840.o                                632                                    
+  ses_startup_nrf_common.o                               12                                    
+  system_nrf52840.o                                   1 054                       4            
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Subtotal (17 objects)                              11 978         222           4       3 837
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a          1 900          39                        
+  libos_v7m_t_vfpv4_le_dp.a                           6 268          85           8         499
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Subtotal (2 archives)                               8 168         124           8         499
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Linker created (shared data, fills, blocks):                       52                   2 048
+  =============================================  ==========  ==========  ==========  ==========
+  Total:                                             20 146         398          12       6 384
+  =============================================  ==========  ==========  ==========  ==========
+
+Memory use by archive:
+
+  Archive member                                    RX Code     RO Data     RW Data     ZI Data
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  OS_ARMv7M_GetCPUState.o (libos_v7m_t_vfpv4_le_dp.a)
+                                                         44                                    
+  OS_ARMv7M_Init.o (libos_v7m_t_vfpv4_le_dp.a)          144                                    
+  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)                1 408                                 240
+  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)                            29                     139
+  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)                 534          46                        
+  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)               2 042                                 120
+  OS_StackInfo.o (libos_v7m_t_vfpv4_le_dp.a)             28                                    
+  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)              182                       8            
+  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)                 962          10                        
+  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)               492                                    
+  OS_Trace.o (libos_v7m_t_vfpv4_le_dp.a)                 20                                    
+  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)                    412                                    
+  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+                                                      1 184          39                        
+  intasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+                                                        208                                    
+  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+                                                        212                                    
+  prinops_scanops_rtt.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+                                                         82                                    
+  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+                                                        176                                    
+  strops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+                                                         38                                    
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Subtotal (18 members from 2 archives)               8 168         124           8         499
+  Objects (17 files)                                 11 978         222           4       3 837
+  Linker created (shared data, fills, blocks):                       52                   2 048
+  =============================================  ==========  ==========  ==========  ==========
+  Total:                                             20 146         398          12       6 384
+  =============================================  ==========  ==========  ==========  ==========
+
+Detailed memory use by linker:
+
+  Description                                       RX Code     RO Data     RW Data     ZI Data
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Initialization table                                               52                        
+  Memory for block 'heap'                                                                 1 024
+  Memory for block 'stack'                                                                1 024
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Subtotal (linker created):                                         52                   2 048
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Objects (17 files)                                 11 978         222           4       3 837
+  Archives (2 files)                                  8 168         124           8         499
+  =============================================  ==========  ==========  ==========  ==========
+  Total:                                             20 146         398          12       6 384
+  =============================================  ==========  ==========  ==========  ==========
+
+
+***********************************************************************************************
+***                                                                                         ***
+***                                     SECTION DETAIL                                      ***
+***                                                                                         ***
+***********************************************************************************************
+
+Sections by address:
+
+  Range              Symbol or [section] Name         Size  Al  Init  Ac  Object File
+  -----------------  -------------------------  ----------  --  ----  --  -----------
+  00000000-000001ff  _vectors                          512  512
+                                                                Code  RX  ses_startup_nrf52840.o
+  00000200-00000213  _start                             20   4  Code  RX  SEGGER_THUMB_Startup.o
+  00000214-0000021b  OS_STACK_GetSysStackBase            8   4  Code  RX  OS_StackInfo.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000021c-0000022b  OS_STACK_GetSysStackSize           16   4  Code  RX  OS_StackInfo.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000022c-000002bb  OS_ARMv7M_Init                    144   4  Code  RX  OS_ARMv7M_Init.o (libos_v7m_t_vfpv4_le_dp.a)
+  000002bc-000002e7  OS_GetCPUState                     44   4  Code  RX  OS_ARMv7M_GetCPUState.o (libos_v7m_t_vfpv4_le_dp.a)
+  000002e8-000002fb  OS_TRACE_SetAPI                    20   4  Code  RX  OS_Trace.o (libos_v7m_t_vfpv4_le_dp.a)
+  000002fc-00000383  OS__TIME_GetCycles                136   4  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000384-000003b3  OS__TIME_ConvertCycles2us          48   4  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  000003b4-0000046b  OS_TIME_ConfigSysTimer            184   4  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000046c-000004af  OS_TIME_Getus64                    68   4  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  000004b0-00000517  OS_TASK_LeaveRegion               104   4  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000518-00000657  OS_TASK_Create_DP                 320   4  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000658-000006a7  OS_TASK_Delay                      80   4  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  000006a8-000006ef  _DelayUntil                        72   4  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  000006f0-0000074f  OS_TASK_GetName                    96   4  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000750-000007db  OS_TASK_GetTimeSliceRem           140   4  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  000007dc-0000085b  OS_TICK_Handle                    128   4  Code  RX  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000085c-00000887  OS_AssertCPUInISRMode              44   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000888-00000be7  OS_ChangeTask_VFP                 864   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000be8-00000c7b  OS_MakeTaskReady                  148   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000c7c-00000cff  OS_InsertTask                     132   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000d00-00000d3f  OS_Deactivated                     64   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000d40-00000da3  OS_EnableProfiling                100   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000da4-00000db3  OS_EnterRegionFunc                 16   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000db4-00000de7  OS_SaveMainStack                   52   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000de8-00000e0f  OS_TaskInit                        40   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000e10-00000ecb  OS_Init_VFP                       188   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000ecc-00000f03  OS__Start                          56   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000f04-00000fd7  OS_STAT_GetExecTime               212   4  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00000fd8-00001017  OS_INFO_GetCPU                     64   4  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00001018-00001057  OS_INFO_GetLibName                 64   4  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00001058-00001097  OS_INFO_GetVersion                 64   4  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00001098-00001123  OS_STACK_GetTaskStackBase         140   4  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00001124-000011af  OS_STACK_GetTaskStackSize         140   4  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  000011b0-000011c3  OS_COM_ClearTxActive               20   4  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  000011c4-0000143b  _EvaPacket                        632   4  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000143c-0000145f  OS_COM_GetInU16                    36   4  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  00001460-00001583  _OnTx                             292   4  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  00001584-000015ab  OS_COM_StoreOutU16                 40   4  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  000015ac-00001647  OS_COM_OnRx                       156   4  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  00001648-0000168b  _StartSend                         68   4  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000168c-000016db  _StoreOutString                    80   4  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  000016dc-000017ab  __aeabi_uldivmod                  208   4  Code  RX  intasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  000017ac-000017e7  strcpy                             60   4  Code  RX  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  000017e8-0000183b  strlen                             84   4  Code  RX  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0000183c-00001847  memcpy                             12   4  Code  RX  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  00001848-0000185b  __aeabi_memclr                     20   4  Code  RX  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0000185c-00001cfb  __SEGGER_RTL_vfprintf_long
+                                                     1 184   4  Code  RX  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  00001cfc-00001cff  OS_JLINKMEM_BufferSize              4   4  Cnst  RO  RTOSInit_nRF5x.o
+  00001d00-00001d5b  embOS_TraceAPI_SYSVIEW             92   4  Cnst  RO  SEGGER_SYSVIEW_embOS.o
+  00001d5c-00001d63  SYSVIEW_X_OS_TraceAPI               8   4  Cnst  RO  SEGGER_SYSVIEW_embOS.o
+  00001d64-00001d67  OS_Version                          4   4  Cnst  RO  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  00001d68-00001d6b  OS_sCopyright                       4   4  Cnst  RO  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  00001d6c-00001d83  HardFault_Handler                  24   4  Code  RX  HardFaultHandler.o
+  00001d84-00001e17  SEGGER_RTT_ASM_WriteSkipNoLock
+                                                       148   4  Code  RX  SEGGER_RTT_ASM_ARMv7M.o
+  00001e18-00001fb3  PendSV_Handler                    412   4  Code  RX  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  00001fb4-00001fcf  nRFInitialize                      28   4  Code  RX  ses_startup_nrf52840.o
+  00001fd0-00001fd1  NMI_Handler                         2   2  Code  RX  ses_startup_nrf52840.o
+  00001fd2-00001fd3  SVC_Handler                         2   2  Code  RX  ses_startup_nrf52840.o
+  00001fd4-00001fd5  POWER_CLOCK_IRQHandler              2   2  Code  RX  ses_startup_nrf52840.o
+  00001fd6-00001fd7  RADIO_IRQHandler                    2   2  Code  RX  ses_startup_nrf52840.o
+  00001fd8-00001fd9  UARTE0_UART0_IRQHandler             2   2  Code  RX  ses_startup_nrf52840.o
+  00001fda-00001fdb  SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+                                                         2   2  Code  RX  ses_startup_nrf52840.o
+  00001fdc-00001fdd  SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler
+                                                         2   2  Code  RX  ses_startup_nrf52840.o
+  00001fde-00001fdf  NFCT_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  00001fe0-00001fe1  GPIOTE_IRQHandler                   2   2  Code  RX  ses_startup_nrf52840.o
+  00001fe2-00001fe3  SAADC_IRQHandler                    2   2  Code  RX  ses_startup_nrf52840.o
+  00001fe4-00001fe5  TIMER0_IRQHandler                   2   2  Code  RX  ses_startup_nrf52840.o
+  00001fe6-00001fe7  TIMER1_IRQHandler                   2   2  Code  RX  ses_startup_nrf52840.o
+  00001fe8-00001fe9  TIMER2_IRQHandler                   2   2  Code  RX  ses_startup_nrf52840.o
+  00001fea-00001feb  RTC0_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  00001fec-00001fed  TEMP_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  00001fee-00001fef  RNG_IRQHandler                      2   2  Code  RX  ses_startup_nrf52840.o
+  00001ff0-00001ff1  ECB_IRQHandler                      2   2  Code  RX  ses_startup_nrf52840.o
+  00001ff2-00001ff3  CCM_AAR_IRQHandler                  2   2  Code  RX  ses_startup_nrf52840.o
+  00001ff4-00001ff5  WDT_IRQHandler                      2   2  Code  RX  ses_startup_nrf52840.o
+  00001ff6-00001ff7  RTC1_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  00001ff8-00001ff9  QDEC_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  00001ffa-00001ffb  COMP_LPCOMP_IRQHandler              2   2  Code  RX  ses_startup_nrf52840.o
+  00001ffc-00001ffd  SWI0_EGU0_IRQHandler                2   2  Code  RX  ses_startup_nrf52840.o
+  00001ffe-00001fff  SWI1_EGU1_IRQHandler                2   2  Code  RX  ses_startup_nrf52840.o
+  00002000-00002001  SWI2_EGU2_IRQHandler                2   2  Code  RX  ses_startup_nrf52840.o
+  00002002-00002003  SWI3_EGU3_IRQHandler                2   2  Code  RX  ses_startup_nrf52840.o
+  00002004-00002005  SWI4_EGU4_IRQHandler                2   2  Code  RX  ses_startup_nrf52840.o
+  00002006-00002007  SWI5_EGU5_IRQHandler                2   2  Code  RX  ses_startup_nrf52840.o
+  00002008-00002009  TIMER3_IRQHandler                   2   2  Code  RX  ses_startup_nrf52840.o
+  0000200a-0000200b  TIMER4_IRQHandler                   2   2  Code  RX  ses_startup_nrf52840.o
+  0000200c-0000200d  PWM0_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  0000200e-0000200f  PDM_IRQHandler                      2   2  Code  RX  ses_startup_nrf52840.o
+  00002010-00002011  MWU_IRQHandler                      2   2  Code  RX  ses_startup_nrf52840.o
+  00002012-00002013  PWM1_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  00002014-00002015  PWM2_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  00002016-00002017  SPIM2_SPIS2_SPI2_IRQHandler
+                                                         2   2  Code  RX  ses_startup_nrf52840.o
+  00002018-00002019  RTC2_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  0000201a-0000201b  I2S_IRQHandler                      2   2  Code  RX  ses_startup_nrf52840.o
+  0000201c-0000201d  FPU_IRQHandler                      2   2  Code  RX  ses_startup_nrf52840.o
+  0000201e-0000201f  USBD_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  00002020-00002021  UARTE1_IRQHandler                   2   2  Code  RX  ses_startup_nrf52840.o
+  00002022-00002023  QSPI_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  00002024-00002025  CRYPTOCELL_IRQHandler               2   2  Code  RX  ses_startup_nrf52840.o
+  00002026-00002027  PWM3_IRQHandler                     2   2  Code  RX  ses_startup_nrf52840.o
+  00002028-00002029  SPIM3_IRQHandler                    2   2  Code  RX  ses_startup_nrf52840.o
+  0000202a-0000202b  Dummy_Handler                       2   2  Code  RX  ses_startup_nrf52840.o
+  0000202c-000020c5  main                              154   2  Code  RX  OS_StartLEDBlink.o
+  000020c6-000020d7  HPTask                             18   2  Code  RX  OS_StartLEDBlink.o
+  000020d8-000020fd  LPTask                             38   2  Code  RX  OS_StartLEDBlink.o
+  000020fe-0000213b  isPrime                            62   2  Code  RX  OS_StartLEDBlink.o
+  0000213c-00002191  BSP_ToggleLED                      86   2  Code  RX  BSP.o
+  00002192-0000220b  _Init                             122   2  Code  RX  JLINKMEM_Process.o
+  0000220c-00002231  _DropTxData                        38   2  Code  RX  JLINKMEM_Process.o
+  00002232-000022bb  _Receive                          138   2  Code  RX  JLINKMEM_Process.o
+  000022bc-00002321  _Send                             102   2  Code  RX  JLINKMEM_Process.o
+  00002322-0000232f  _UnlockTxBuf                       14   2  Code  RX  JLINKMEM_Process.o
+  00002330-0000233d  _StopTimer                         14   2  Code  RX  JLINKMEM_Process.o
+  0000233e-0000248b  SysTick_Handler                   334   2  Code  RX  RTOSInit_nRF5x.o
+  0000248c-000024c9  __NVIC_SetPriority                 62   2  Code  RX  RTOSInit_nRF5x.o
+  000024ca-000024cb  OS_Idle                             2   2  Code  RX  RTOSInit_nRF5x.o
+  000024cc-000025d5  HardFaultHandler                  266   2  Code  RX  SEGGER_HardFaultHandler.o
+  000025d6-0000260f  _GetAvailWriteSpace                58   2  Code  RX  SEGGER_RTT.o
+  00002610-000026dd  _WriteBlocking                    206   2  Code  RX  SEGGER_RTT.o
+  000026de-0000277f  SEGGER_RTT_WriteNoLock            162   2  Code  RX  SEGGER_RTT.o
+  00002780-0000285d  SEGGER_RTT_AllocUpBuffer          222   2  Code  RX  SEGGER_RTT.o
+  0000285e-00002893  SEGGER_SYSVIEW_RecordVoid          54   2  Code  RX  SEGGER_SYSVIEW.o
+  00002894-00002a51  _SendPacket                       446   2  Code  RX  SEGGER_SYSVIEW.o
+  00002a52-00002abf  SEGGER_SYSVIEW_RecordU32          110   2  Code  RX  SEGGER_SYSVIEW.o
+  00002ac0-00002b61  SEGGER_SYSVIEW_RecordU32x2
+                                                       162   2  Code  RX  SEGGER_SYSVIEW.o
+  00002b62-00002c37  SEGGER_SYSVIEW_RecordU32x3
+                                                       214   2  Code  RX  SEGGER_SYSVIEW.o
+  00002c38-00002d79  SEGGER_SYSVIEW_RecordU32x5
+                                                       322   2  Code  RX  SEGGER_SYSVIEW.o
+  00002d7a-00002eef  SEGGER_SYSVIEW_Start              374   2  Code  RX  SEGGER_SYSVIEW.o
+  00002ef0-00002f61  SEGGER_SYSVIEW_SendNumModules
+                                                       114   2  Code  RX  SEGGER_SYSVIEW.o
+  00002f62-00002fa3  SEGGER_SYSVIEW_SendSysDesc
+                                                        66   2  Code  RX  SEGGER_SYSVIEW.o
+  00002fa4-0000301d  SEGGER_SYSVIEW_RecordEnterISR
+                                                       122   2  Code  RX  SEGGER_SYSVIEW.o
+  0000301e-000030a3  SEGGER_SYSVIEW_NameResource
+                                                       134   2  Code  RX  SEGGER_SYSVIEW.o
+  000030a4-000030b9  SEGGER_SYSVIEW_ShrinkId            22   2  Code  RX  SEGGER_SYSVIEW.o
+  000030ba-00003197  _TrySendOverflowPacket            222   2  Code  RX  SEGGER_SYSVIEW.o
+  00003198-000031f9  SEGGER_SYSVIEW_Conf                98   2  Code  RX  SEGGER_SYSVIEW_Config_embOS.o
+  000031fa-00003203  OUTLINED_FUNCTION_0                10   2  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003204-00003209  OUTLINED_FUNCTION_1                 6   2  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000320a-0000320f  OUTLINED_FUNCTION_3                 6   2  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003210-00003215  OUTLINED_FUNCTION_5                 6   2  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003216-0000321b  OUTLINED_FUNCTION_6                 6   2  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000321c-00003221  OUTLINED_FUNCTION_7                 6   2  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003222-00003227  OUTLINED_FUNCTION_1                 6   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003228-0000322d  OUTLINED_FUNCTION_3                 6   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000322e-00003233  OUTLINED_FUNCTION_4                 6   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003234-00003239  OUTLINED_FUNCTION_5                 6   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000323a-0000323f  OUTLINED_FUNCTION_6                 6   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003240-00003251  OUTLINED_FUNCTION_10               18   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003252-00003257  OUTLINED_FUNCTION_11                6   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003258-00003265  OUTLINED_FUNCTION_12               14   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003266-00003273  OUTLINED_FUNCTION_14               14   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003274-0000328d  OUTLINED_FUNCTION_0                26   2  Code  RX  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000328e-00003297  OUTLINED_FUNCTION_2                10   2  Code  RX  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003298-000032a1  OUTLINED_FUNCTION_3                10   2  Code  RX  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032a2-000032b3  OS_RemoveTaskFromWaitList          18   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032b4-000032b9  OS_TerminateError                   6   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032ba-000032bf  OUTLINED_FUNCTION_0                 6   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032c0-000032c5  OUTLINED_FUNCTION_2                 6   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032c6-000032cb  OUTLINED_FUNCTION_4                 6   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032cc-000032d1  OUTLINED_FUNCTION_5                 6   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032d2-000032d7  OUTLINED_FUNCTION_9                 6   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032d8-000032dd  OUTLINED_FUNCTION_1                 6   2  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032de-000032e3  OUTLINED_FUNCTION_3                 6   2  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032e4-000032e9  OUTLINED_FUNCTION_4                 6   2  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032ea-000032ef  OUTLINED_FUNCTION_7                 6   2  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032f0-000032f5  OUTLINED_FUNCTION_8                 6   2  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  000032f6-00003307  OS_COM_GetInU32                    18   2  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003308-00003319  OS_COM_StoreOutU32                 18   2  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000331a-00003327  OUTLINED_FUNCTION_0                14   2  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  00003328-0000332d  OUTLINED_FUNCTION_1                 6   2  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0000332e-0000338b  errata_36                          94   2  Code  RX  system_nrf52840.o
+  0000338c-000033e9  errata_66                          94   2  Code  RX  system_nrf52840.o
+  000033ea-0000341b  errata_98                          50   2  Code  RX  system_nrf52840.o
+  0000341c-0000344d  errata_103                         50   2  Code  RX  system_nrf52840.o
+  0000344e-0000347f  errata_115                         50   2  Code  RX  system_nrf52840.o
+  00003480-000034b1  errata_120                         50   2  Code  RX  system_nrf52840.o
+  000034b2-0000350f  errata_136                         94   2  Code  RX  system_nrf52840.o
+  00003510-00003535  strnlen                            38   2  Code  RX  strops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  00003536-0000357b  printf_rtt                         70   2  Code  RX  prinops_scanops_rtt.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0000357c-00003599  __SEGGER_RTL_print_padding
+                                                        30   2  Code  RX  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0000359a-000035ab  __SEGGER_RTL_pre_padding           18   2  Code  RX  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  000035ac-000035b7  reset_handler                      12   2  Code  RX  ses_startup_nrf_common.o
+  000035b8-000035d3  BSP_Init                           28   2  Code  RX  BSP.o
+  000035d4-0000368b  JLINKMEM_Process                  184   2  Code  RX  JLINKMEM_Process.o
+  0000368c-00003747  JLINKMEM_SendChar                 188   2  Code  RX  JLINKMEM_Process.o
+  00003748-000037a3  _LockTxBuf                         92   2  Code  RX  JLINKMEM_Process.o
+  000037a4-0000385b  _FillTxBuf                        184   2  Code  RX  JLINKMEM_Process.o
+  0000385c-0000386f  JLINKMEM_SetpfOnRx                 20   2  Code  RX  JLINKMEM_Process.o
+  00003870-00003883  JLINKMEM_SetpfOnTx                 20   2  Code  RX  JLINKMEM_Process.o
+  00003884-00003897  JLINKMEM_SetpfGetNextChar          20   2  Code  RX  JLINKMEM_Process.o
+  00003898-000038a7  _RetriggerTimer                    16   2  Code  RX  JLINKMEM_Process.o
+  000038a8-000038e7  OS_Error                           64   2  Code  RX  OS_Error.o
+  000038e8-000039c7  OS_InitHW                         224   2  Code  RX  RTOSInit_nRF5x.o
+  000039c8-00003a17  SysTick_Config                     80   2  Code  RX  RTOSInit_nRF5x.o
+  00003a18-00003a23  _OS_GetHWTimerCycles               12   2  Code  RX  RTOSInit_nRF5x.o
+  00003a24-00003a33  _OS_GetHWTimer_IntPending          16   2  Code  RX  RTOSInit_nRF5x.o
+  00003a34-00003a47  OS_COM_Send1                       20   2  Code  RX  RTOSInit_nRF5x.o
+  00003a48-00003ae3  _DoInit                           156   2  Code  RX  SEGGER_RTT.o
+  00003ae4-00003bfb  SEGGER_RTT_ReadNoLock             280   2  Code  RX  SEGGER_RTT.o
+  00003bfc-00003c83  _WriteNoCheck                     136   2  Code  RX  SEGGER_RTT.o
+  00003c84-00003cc7  SEGGER_RTT_Write                   68   2  Code  RX  SEGGER_RTT.o
+  00003cc8-00003d5b  SEGGER_RTT_ConfigDownBuffer
+                                                       148   2  Code  RX  SEGGER_RTT.o
+  00003d5c-00003ddb  SEGGER_SYSVIEW_Init               128   2  Code  RX  SEGGER_SYSVIEW.o
+  00003ddc-00003de7  _PreparePacket                     12   2  Code  RX  SEGGER_SYSVIEW.o
+  00003de8-00003ef3  SEGGER_SYSVIEW_RecordU32x4
+                                                       268   2  Code  RX  SEGGER_SYSVIEW.o
+  00003ef4-00003f7b  _EncodeStr                        136   2  Code  RX  SEGGER_SYSVIEW.o
+  00003f7c-00003fcb  SEGGER_SYSVIEW_RecordSystime
+                                                        80   2  Code  RX  SEGGER_SYSVIEW.o
+  00003fcc-00003ffb  SEGGER_SYSVIEW_SendTaskList
+                                                        48   2  Code  RX  SEGGER_SYSVIEW.o
+  00003ffc-00004047  SEGGER_SYSVIEW_Stop                76   2  Code  RX  SEGGER_SYSVIEW.o
+  00004048-00004177  SEGGER_SYSVIEW_GetSysDesc         304   2  Code  RX  SEGGER_SYSVIEW.o
+  00004178-0000431b  SEGGER_SYSVIEW_SendTaskInfo
+                                                       420   2  Code  RX  SEGGER_SYSVIEW.o
+  0000431c-0000434f  SEGGER_SYSVIEW_RecordExitISR
+                                                        52   2  Code  RX  SEGGER_SYSVIEW.o
+  00004350-00004383  SEGGER_SYSVIEW_RecordExitISRToScheduler
+                                                        52   2  Code  RX  SEGGER_SYSVIEW.o
+  00004384-000043fb  SEGGER_SYSVIEW_RecordEnterTimer
+                                                       120   2  Code  RX  SEGGER_SYSVIEW.o
+  000043fc-0000442f  SEGGER_SYSVIEW_RecordExitTimer
+                                                        52   2  Code  RX  SEGGER_SYSVIEW.o
+  00004430-0000449b  SEGGER_SYSVIEW_RecordEndCall
+                                                       108   2  Code  RX  SEGGER_SYSVIEW.o
+  0000449c-0000453b  SEGGER_SYSVIEW_RecordEndCallU32
+                                                       160   2  Code  RX  SEGGER_SYSVIEW.o
+  0000453c-0000456f  SEGGER_SYSVIEW_OnIdle              52   2  Code  RX  SEGGER_SYSVIEW.o
+  00004570-000045eb  SEGGER_SYSVIEW_OnTaskCreate
+                                                       124   2  Code  RX  SEGGER_SYSVIEW.o
+  000045ec-00004667  SEGGER_SYSVIEW_OnTaskTerminate
+                                                       124   2  Code  RX  SEGGER_SYSVIEW.o
+  00004668-000046e3  SEGGER_SYSVIEW_OnTaskStartExec
+                                                       124   2  Code  RX  SEGGER_SYSVIEW.o
+  000046e4-00004717  SEGGER_SYSVIEW_OnTaskStopExec
+                                                        52   2  Code  RX  SEGGER_SYSVIEW.o
+  00004718-00004793  SEGGER_SYSVIEW_OnTaskStartReady
+                                                       124   2  Code  RX  SEGGER_SYSVIEW.o
+  00004794-00004843  SEGGER_SYSVIEW_OnTaskStopReady
+                                                       176   2  Code  RX  SEGGER_SYSVIEW.o
+  00004844-00004937  SEGGER_SYSVIEW_SendModule         244   2  Code  RX  SEGGER_SYSVIEW.o
+  00004938-0000496f  SEGGER_SYSVIEW_SendModuleDescription
+                                                        56   2  Code  RX  SEGGER_SYSVIEW.o
+  00004970-00004a3f  _HandleIncomingPacket             208   2  Code  RX  SEGGER_SYSVIEW.o
+  00004a40-00004a5f  _cbSendSystemDesc                  32   2  Code  RX  SEGGER_SYSVIEW_Config_embOS.o
+  00004a60-00004a9f  _cbSendTaskInfo                    64   2  Code  RX  SEGGER_SYSVIEW_embOS.o
+  00004aa0-00004aef  _cbSendTaskList                    80   2  Code  RX  SEGGER_SYSVIEW_embOS.o
+  00004af0-00004af3  OS_STACK_GetSP                      4   2  Code  RX  OS_StackInfo.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004af4-00004afb  OUTLINED_FUNCTION_2                 8   2  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004afc-00004b03  OUTLINED_FUNCTION_4                 8   2  Code  RX  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b04-00004b0b  OUTLINED_FUNCTION_0                 8   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b0c-00004b13  OUTLINED_FUNCTION_2                 8   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b14-00004b1b  OUTLINED_FUNCTION_9                 8   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b1c-00004b2b  OUTLINED_FUNCTION_13               16   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b2c-00004b33  OUTLINED_FUNCTION_16                8   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b34-00004b3b  OUTLINED_FUNCTION_17                8   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b3c-00004b47  OUTLINED_FUNCTION_18               12   2  Code  RX  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b48-00004b4f  OUTLINED_FUNCTION_1                 8   2  Code  RX  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b50-00004b7b  OS_AssertCPUNotInIllegalState
+                                                        44   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b7c-00004b83  OUTLINED_FUNCTION_6                 8   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b84-00004b8b  OUTLINED_FUNCTION_7                 8   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b8c-00004b97  OUTLINED_FUNCTION_10               12   2  Code  RX  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004b98-00004b9f  OUTLINED_FUNCTION_0                 8   2  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004ba0-00004ba7  OUTLINED_FUNCTION_2                 8   2  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004ba8-00004baf  OUTLINED_FUNCTION_5                 8   2  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004bb0-00004bb7  OUTLINED_FUNCTION_6                 8   2  Code  RX  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004bb8-00004bbb  OS_COM_GetNextChar                  4   2  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004bbc-00004bd3  OS_COM_OnTx                        24   2  Code  RX  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004bd4-00004be7  SystemCoreClockUpdate              20   2  Code  RX  system_nrf52840.o
+  00004be8-00004e0f  SystemInit                        552   2  Code  RX  system_nrf52840.o
+  00004e10-00004e1b  __SEGGER_RTL_stdout_write          12   2  Code  RX  prinops_scanops_rtt.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  00004e1c-00004e33  __SEGGER_RTL_prin_flush            24   2  Code  RX  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  00004e34-00004eb7  __SEGGER_RTL_putc                 132   2  Code  RX  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  00004eb8-00004ebf  __SEGGER_RTL_init_prin              8   2  Code  RX  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  00004ec0-00004ec6  [.rodata..L.str.2]                  7   1  Cnst  RO  SEGGER_RTT.o
+  00004ec7-00004ed5  OS_INFO_GetCPU.acCPU               15   1  Cnst  RO  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004ed6-00004edc  OS_INFO_GetLibName.acLibName
+                                                         7   1  Cnst  RO  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004edd-00004ee3  [.rodata.libc..L.str]               7   1  Cnst  RO  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  00004ee4-00004eed  _abSync                            10   1  Cnst  RO  SEGGER_SYSVIEW.o
+  00004eee-00004f1b  [.rodata..L.str]                   46   1  Cnst  RO  SEGGER_SYSVIEW_Config_embOS.o
+  00004f1c-00004f25  OS_TASK_GetName.acIdleText
+                                                        10   1  Cnst  RO  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004f26-00004f2a  [.rodata..L.str.2]                  5   1  Cnst  RO  OS_StartLEDBlink.o
+  00004f2b-00004f33  [.rodata..L.str]                    9   1  Cnst  RO  SEGGER_RTT.o
+  00004f34-00004f40  [.rodata..L.str.1]                 13   1  Cnst  RO  SEGGER_SYSVIEW_Config_embOS.o
+  00004f41-00004f55  [.rodata..L.str]                   21   1  Cnst  RO  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004f56-00004f57  ( UNUSED .=.+2 )                    2   -  ----  -   -
+  00004f58-00004f5b  [.init_array]                       4   4  ----  --  ses_startup_nrf_common.o
+  00004f5c-00004f63  [.rodata..L.str]                    8   1  Cnst  RO  OS_StartLEDBlink.o
+  00004f64-00004f6b  [.rodata..L.str.1]                  8   1  Cnst  RO  OS_StartLEDBlink.o
+  00004f6c-00004f6f  [.rodata..L.str.1]                  4   1  Cnst  RO  SEGGER_RTT.o
+  00004f70-00004f77  [.rodata..L.str]                    8   1  Cnst  RO  SEGGER_SYSVIEW.o
+  00004f78-00004f8f  OS_DebugInfo                       24   1  Cnst  RO  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  00004f90-00004f9f  __SEGGER_RTL_hex_uc                16   1  Cnst  RO  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  00004fa0-00004faf  __SEGGER_RTL_hex_lc                16   1  Cnst  RO  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  00004fb0-00004fcb  __SEGGER_init_heap                 28   4  Code  RX  SEGGER_crtinit_v7em_little.o
+  00004fcc-00004feb  __SEGGER_init_ctors                32   4  Code  RX  SEGGER_crtinit_v7em_little.o
+  00004fec-00005013  __SEGGER_init_table__              40   4  Cnst  RO  [ Linker created ]
+  00005014-0000501f  __SEGGER_init_data__               12   4  Cnst  RO  [ Linker created ]
+  00005020-00005031  __SEGGER_init_zero                 18   2  Code  RX  SEGGER_crtinit_v7em_little.o
+  00005032-00005045  __SEGGER_init_copy                 20   2  Code  RX  SEGGER_crtinit_v7em_little.o
+  00005046-1fffffff  ( UNUSED .=.+536850362 )   536 850 362
+                                                             -  ----  -   -
+  20000000-20000047  OS_Global                          72   8  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  20000048-2000006f  _OS_StringLen                      40   8  Zero  ZI  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  20000070-2000026f  StackLP                           512   4  Zero  ZI  OS_StartLEDBlink.o
+  20000270-2000046f  StackHP                           512   4  Zero  ZI  OS_StartLEDBlink.o
+  20000470-20000537  _abOutBuffer                      200   4  Zero  ZI  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  20000538-200005df  _SEGGER_RTT                       168   4  Zero  ZI  SEGGER_RTT.o
+  200005e0-20000657  _OS_CPU_LoadAutoAdjust            120   4  Zero  ZI  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  20000658-200006b3  TCBLP                              92   4  Zero  ZI  OS_StartLEDBlink.o
+  200006b4-2000070f  TCBHP                              92   4  Zero  ZI  OS_StartLEDBlink.o
+  20000710-2000074f  HardFaultRegs                      64   4  Zero  ZI  SEGGER_HardFaultHandler.o
+  20000750-20000777  _SYSVIEW_Globals                   40   4  Zero  ZI  SEGGER_SYSVIEW.o
+  20000778-20000797  OS_SysTimer_Settings               32   4  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  20000798-2000079b  _pfOnTx                             4   4  Zero  ZI  JLINKMEM_Process.o
+  2000079c-2000079f  _pfOnRx                             4   4  Zero  ZI  JLINKMEM_Process.o
+  200007a0-200007a3  _pfGetNextChar                      4   4  Zero  ZI  JLINKMEM_Process.o
+  200007a4-200007a7  _pTxBuf                             4   4  Zero  ZI  JLINKMEM_Process.o
+  200007a8-200007ab  _pRxBuf                             4   4  Zero  ZI  JLINKMEM_Process.o
+  200007ac-200007af  _pFirstModule                       4   4  Zero  ZI  SEGGER_SYSVIEW.o
+  200007b0-200007b3  _TxTimeoutTimer                     4   4  Zero  ZI  JLINKMEM_Process.o
+  200007b4-200007b7  _TxTimeout                          4   4  Zero  ZI  JLINKMEM_Process.o
+  200007b8-200007bb  _TxIsPending                        4   4  Zero  ZI  JLINKMEM_Process.o
+  200007bc-200007bf  _TxBufLocked                        4   4  Zero  ZI  JLINKMEM_Process.o
+  200007c0-200007c3  _IsInited                           4   4  Zero  ZI  JLINKMEM_Process.o
+  200007c4-200007c7  _Continue                           4   4  Zero  ZI  SEGGER_HardFaultHandler.o
+  200007c8-200007cb  _BaseAddr                           4   4  Zero  ZI  JLINKMEM_Process.o
+  200007cc-200007cf  SEGGER_SYSVIEW_TickCnt              4   4  Zero  ZI  SEGGER_SYSVIEW.o
+  200007d0-200007d3  OS_pfTaskStartHook                  4   4  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200007d4-200007d7  OS_pTickHookRoot                    4   4  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200007d8-200007db  OS_pObjNameRoot                     4   4  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200007dc-200007df  OS_pMainContext                     4   4  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200007e0-200007e3  OS_pDefaultTaskContextExtension
+                                                         4   4  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200007e4-200007e7  OS_TickStepTime                     4   4  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200007e8-200007eb  OS_TS_ExecStart                     4   4  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200007ec-200007ed  OS_Status                           2   2  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200007ee-20000bed  _acUpBuffer                     1 024   1  Zero  ZI  SEGGER_RTT.o
+  20000bee-20000fed  _UpBuffer                       1 024   1  Zero  ZI  SEGGER_SYSVIEW.o
+  20000fee-200010d0  _aPacket                          227   1  Zero  ZI  SEGGER_SYSVIEW.o
+  200010d1-200010e0  _acDownBuffer                      16   1  Zero  ZI  SEGGER_RTT.o
+  200010e1-200010e8  _DownBuffer                         8   1  Zero  ZI  SEGGER_SYSVIEW.o
+  200010e9-200010e9  _TxPendingData                      1   1  Zero  ZI  JLINKMEM_Process.o
+  200010ea-200010ea  _NumModules                         1   1  Zero  ZI  SEGGER_SYSVIEW.o
+  200010eb-200010eb  OS_TickStep                         1   1  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200010ec-200010ec  OS_Running                          1   1  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200010ed-200010ed  OS_InitialSuspendCnt                1   1  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200010ee-200010ee  OS_InitCalled                       1   1  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200010ef-200010ef  OS_InTimer                          1   1  Zero  ZI  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  200010f0-200010f7  _OS_TimeFractPerInt                 8   4  Init  RW  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  200010f8-200010fb  SystemCoreClock                     4   4  Init  RW  system_nrf52840.o
+  200010fc-200010ff  ( UNUSED .=.+4 )                    4   -  ----  -   -
+  20001100-200014ff  [.bss.block.heap]               1 024   8  None  ZI  [ Linker created ]
+  20001500-2003fbff  ( UNUSED .=.+255744 )         255 744   -  ----  -   -
+  2003fc00-2003ffff  [.bss.block.stack]              1 024   8  None  ZI  [ Linker created ]
+
+
+***********************************************************************************************
+***                                                                                         ***
+***                                       SYMBOL LIST                                       ***
+***                                                                                         ***
+***********************************************************************************************
+
+Function symbols by name and then by address:
+
+  Symbol name                   Address        Size  Align  Type  Bd  Object File
+  -------------------------  ----------  ----------  -----  ----  --  -----------
+  BSP_Init                   0x000035B9          28      2  Code  Gb  BSP.o
+  BSP_ToggleLED              0x0000213D          86      2  Code  Gb  BSP.o
+  CCM_AAR_IRQHandler         0x00001FF3                  2  Code  Wk  ses_startup_nrf52840.o
+  COMP_LPCOMP_IRQHandler     0x00001FFB                  2  Code  Wk  ses_startup_nrf52840.o
+  CRYPTOCELL_IRQHandler      0x00002025                  2  Code  Wk  ses_startup_nrf52840.o
+  Dummy_Handler              0x0000202B                  2  Code  Wk  ses_startup_nrf52840.o
+  ECB_IRQHandler             0x00001FF1                  2  Code  Wk  ses_startup_nrf52840.o
+  FPU_IRQHandler             0x0000201D                  2  Code  Wk  ses_startup_nrf52840.o
+  GPIOTE_IRQHandler          0x00001FE1                  2  Code  Wk  ses_startup_nrf52840.o
+  HPTask                     0x000020C7          18      2  Code  Lc  OS_StartLEDBlink.o
+  HardFaultHandler           0x000024CD         266      2  Code  Gb  SEGGER_HardFaultHandler.o
+  HardFault_Handler          0x00001D6D                  4  Code  Gb  HardFaultHandler.o
+  I2S_IRQHandler             0x0000201B                  2  Code  Wk  ses_startup_nrf52840.o
+  JLINKMEM_Process           0x000035D5         184      2  Code  Gb  JLINKMEM_Process.o
+  JLINKMEM_SendChar          0x0000368D         188      2  Code  Gb  JLINKMEM_Process.o
+  JLINKMEM_SetpfGetNextChar  0x00003885          20      2  Code  Gb  JLINKMEM_Process.o
+  JLINKMEM_SetpfOnRx         0x0000385D          20      2  Code  Gb  JLINKMEM_Process.o
+  JLINKMEM_SetpfOnTx         0x00003871          20      2  Code  Gb  JLINKMEM_Process.o
+  LPTask                     0x000020D9          38      2  Code  Lc  OS_StartLEDBlink.o
+  MWU_IRQHandler             0x00002011                  2  Code  Wk  ses_startup_nrf52840.o
+  NFCT_IRQHandler            0x00001FDF                  2  Code  Wk  ses_startup_nrf52840.o
+  NMI_Handler                0x00001FD1                  2  Code  Wk  ses_startup_nrf52840.o
+  OS_ARMv7M_Init             0x0000022D         144      4  Code  Gb  OS_ARMv7M_Init.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_AssertCPUInISRMode      0x0000085D          44      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_AssertCPUNotInIllegalState
+                             0x00004B51          44      2  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_COM_ClearTxActive       0x000011B1          20      4  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_COM_GetInU16            0x0000143D          36      4  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_COM_GetInU32            0x000032F7          18      2  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_COM_GetNextChar         0x00004BB9           4      2  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_COM_OnRx                0x000015AD         156      4  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_COM_OnTx                0x00004BBD          24      2  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_COM_Send1               0x00003A35          20      2  Code  Gb  RTOSInit_nRF5x.o
+  OS_COM_StoreOutU16         0x00001585          40      4  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_COM_StoreOutU32         0x00003309          18      2  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_ChangeTask_VFP          0x00000889         864      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_Deactivated             0x00000D01          64      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_EnableProfiling         0x00000D41         100      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_EnterRegionFunc         0x00000DA5          16      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_Error                   0x000038A9          64      2  Code  Gb  OS_Error.o
+  OS_GetCPUState             0x000002BD          44      4  Code  Gb  OS_ARMv7M_GetCPUState.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_INFO_GetCPU             0x00000FD9          64      4  Code  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_INFO_GetLibName         0x00001019          64      4  Code  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_INFO_GetVersion         0x00001059          64      4  Code  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_Idle                    0x000024CB           2      2  Code  Gb  RTOSInit_nRF5x.o
+  OS_InitHW                  0x000038E9         224      2  Code  Gb  RTOSInit_nRF5x.o
+  OS_Init_VFP                0x00000E11         188      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_InsertTask              0x00000C7D         132      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_MakeTaskReady           0x00000BE9         148      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_RemoveTaskFromWaitList  0x000032A3          18      2  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_STACK_GetSP             0x00004AF1           4      2  Code  Gb  OS_StackInfo.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_STACK_GetSysStackBase   0x00000215           8      4  Code  Gb  OS_StackInfo.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_STACK_GetSysStackSize   0x0000021D          16      4  Code  Gb  OS_StackInfo.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_STACK_GetTaskStackBase  0x00001099         140      4  Code  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_STACK_GetTaskStackSize  0x00001125         140      4  Code  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_STAT_GetExecTime        0x00000F05         212      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_SaveMainStack           0x00000DB5          52      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_StartASM                0x00001EC9                  4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_StartTask               0x00001EB5                  4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_StopASM                 0x00001F15                  4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_Switch                  0x00001F2F                  4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_SwitchAfterISR_CortexM  0x00001F51                  4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_SwitchFromInt           0x00001F5F                  4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TASK_Create_DP          0x00000519         320      4  Code  Gb  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TASK_Delay              0x00000659          80      4  Code  Gb  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TASK_GetName            0x000006F1          96      4  Code  Gb  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TASK_GetTimeSliceRem    0x00000751         140      4  Code  Gb  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TASK_LeaveRegion        0x000004B1         104      4  Code  Gb  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TICK_Handle             0x000007DD         128      4  Code  Gb  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TIME_ConfigSysTimer     0x000003B5         184      4  Code  Gb  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TIME_Getus64            0x0000046D          68      4  Code  Gb  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TRACE_SetAPI            0x000002E9          20      4  Code  Gb  OS_Trace.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TaskInit                0x00000DE9          40      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TerminateError          0x000032B5           6      2  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS__Start                  0x00000ECD          56      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS__TIME_ConvertCycles2us  0x00000385          48      4  Code  Gb  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS__TIME_GetCycles         0x000002FD         136      4  Code  Gb  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_0        0x000031FB          10      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_0        0x00003275          26      2  Code  Lc  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_0        0x000032BB           6      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_0        0x0000331B          14      2  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_0        0x00004B05           8      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_0        0x00004B99           8      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_1        0x00003205           6      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_1        0x00003223           6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_1        0x000032D9           6      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_1        0x00003329           6      2  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_1        0x00004B49           8      2  Code  Lc  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_10       0x00003241          18      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_10       0x00004B8D          12      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_11       0x00003253           6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_12       0x00003259          14      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_13       0x00004B1D          16      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_14       0x00003267          14      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_16       0x00004B2D           8      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_17       0x00004B35           8      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_18       0x00004B3D          12      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_2        0x0000328F          10      2  Code  Lc  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_2        0x000032C1           6      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_2        0x00004AF5           8      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_2        0x00004B0D           8      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_2        0x00004BA1           8      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_3        0x0000320B           6      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_3        0x00003229           6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_3        0x00003299          10      2  Code  Lc  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_3        0x000032DF           6      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_4        0x0000322F           6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_4        0x000032C7           6      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_4        0x000032E5           6      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_4        0x00004AFD           8      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_5        0x00003211           6      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_5        0x00003235           6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_5        0x000032CD           6      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_5        0x00004BA9           8      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_6        0x00003217           6      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_6        0x0000323B           6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_6        0x00004B7D           8      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_6        0x00004BB1           8      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_7        0x0000321D           6      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_7        0x000032EB           6      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_7        0x00004B85           8      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_8        0x000032F1           6      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_9        0x000032D3           6      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OUTLINED_FUNCTION_9        0x00004B15           8      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  PDM_IRQHandler             0x0000200F                  2  Code  Wk  ses_startup_nrf52840.o
+  POWER_CLOCK_IRQHandler     0x00001FD5                  2  Code  Wk  ses_startup_nrf52840.o
+  PWM0_IRQHandler            0x0000200D                  2  Code  Wk  ses_startup_nrf52840.o
+  PWM1_IRQHandler            0x00002013                  2  Code  Wk  ses_startup_nrf52840.o
+  PWM2_IRQHandler            0x00002015                  2  Code  Wk  ses_startup_nrf52840.o
+  PWM3_IRQHandler            0x00002027                  2  Code  Wk  ses_startup_nrf52840.o
+  PendSV_Handler             0x00001E19                  4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  QDEC_IRQHandler            0x00001FF9                  2  Code  Wk  ses_startup_nrf52840.o
+  QSPI_IRQHandler            0x00002023                  2  Code  Wk  ses_startup_nrf52840.o
+  RADIO_IRQHandler           0x00001FD7                  2  Code  Wk  ses_startup_nrf52840.o
+  RNG_IRQHandler             0x00001FEF                  2  Code  Wk  ses_startup_nrf52840.o
+  RTC0_IRQHandler            0x00001FEB                  2  Code  Wk  ses_startup_nrf52840.o
+  RTC1_IRQHandler            0x00001FF7                  2  Code  Wk  ses_startup_nrf52840.o
+  RTC2_IRQHandler            0x00002019                  2  Code  Wk  ses_startup_nrf52840.o
+  Reset_Handler              0x000035AD                  2  Code  Gb  ses_startup_nrf_common.o
+  SAADC_IRQHandler           0x00001FE3                  2  Code  Wk  ses_startup_nrf52840.o
+  SEGGER_RTT_ASM_WriteSkipNoLock
+                             0x00001D85                  4  Code  Gb  SEGGER_RTT_ASM_ARMv7M.o
+  SEGGER_RTT_AllocUpBuffer   0x00002781         222      2  Code  Gb  SEGGER_RTT.o
+  SEGGER_RTT_ConfigDownBuffer
+                             0x00003CC9         148      2  Code  Gb  SEGGER_RTT.o
+  SEGGER_RTT_ReadNoLock      0x00003AE5         280      2  Code  Gb  SEGGER_RTT.o
+  SEGGER_RTT_Write           0x00003C85          68      2  Code  Gb  SEGGER_RTT.o
+  SEGGER_RTT_WriteNoLock     0x000026DF         162      2  Code  Gb  SEGGER_RTT.o
+  SEGGER_SYSVIEW_Conf        0x00003199          98      2  Code  Gb  SEGGER_SYSVIEW_Config_embOS.o
+  SEGGER_SYSVIEW_GetSysDesc  0x00004049         304      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_Init        0x00003D5D         128      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_NameResource
+                             0x0000301F         134      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_OnIdle      0x0000453D          52      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_OnTaskCreate
+                             0x00004571         124      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_OnTaskStartExec
+                             0x00004669         124      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_OnTaskStartReady
+                             0x00004719         124      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_OnTaskStopExec
+                             0x000046E5          52      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_OnTaskStopReady
+                             0x00004795         176      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_OnTaskTerminate
+                             0x000045ED         124      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordEndCall
+                             0x00004431         108      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordEndCallU32
+                             0x0000449D         160      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordEnterISR
+                             0x00002FA5         122      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordEnterTimer
+                             0x00004385         120      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordExitISR
+                             0x0000431D          52      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordExitISRToScheduler
+                             0x00004351          52      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordExitTimer
+                             0x000043FD          52      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordSystime
+                             0x00003F7D          80      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordU32   0x00002A53         110      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordU32x2
+                             0x00002AC1         162      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordU32x3
+                             0x00002B63         214      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordU32x4
+                             0x00003DE9         268      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordU32x5
+                             0x00002C39         322      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_RecordVoid  0x0000285F          54      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_SendModule  0x00004845         244      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_SendModuleDescription
+                             0x00004939          56      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_SendNumModules
+                             0x00002EF1         114      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_SendSysDesc
+                             0x00002F63          66      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_SendTaskInfo
+                             0x00004179         420      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_SendTaskList
+                             0x00003FCD          48      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_ShrinkId    0x000030A5          22      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_Start       0x00002D7B         374      2  Code  Gb  SEGGER_SYSVIEW.o
+  SEGGER_SYSVIEW_Stop        0x00003FFD          76      2  Code  Gb  SEGGER_SYSVIEW.o
+  SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+                             0x00001FDB                  2  Code  Wk  ses_startup_nrf52840.o
+  SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler
+                             0x00001FDD                  2  Code  Wk  ses_startup_nrf52840.o
+  SPIM2_SPIS2_SPI2_IRQHandler
+                             0x00002017                  2  Code  Wk  ses_startup_nrf52840.o
+  SPIM3_IRQHandler           0x00002029                  2  Code  Wk  ses_startup_nrf52840.o
+  SVC_Handler                0x00001FD3                  2  Code  Wk  ses_startup_nrf52840.o
+  SWI0_EGU0_IRQHandler       0x00001FFD                  2  Code  Wk  ses_startup_nrf52840.o
+  SWI1_EGU1_IRQHandler       0x00001FFF                  2  Code  Wk  ses_startup_nrf52840.o
+  SWI2_EGU2_IRQHandler       0x00002001                  2  Code  Wk  ses_startup_nrf52840.o
+  SWI3_EGU3_IRQHandler       0x00002003                  2  Code  Wk  ses_startup_nrf52840.o
+  SWI4_EGU4_IRQHandler       0x00002005                  2  Code  Wk  ses_startup_nrf52840.o
+  SWI5_EGU5_IRQHandler       0x00002007                  2  Code  Wk  ses_startup_nrf52840.o
+  SysTick_Config             0x000039C9          80      2  Code  Lc  RTOSInit_nRF5x.o
+  SysTick_Handler            0x0000233F         334      2  Code  Gb  RTOSInit_nRF5x.o
+  SystemCoreClockUpdate      0x00004BD5          20      2  Code  Gb  system_nrf52840.o
+  SystemInit                 0x00004BE9         552      2  Code  Gb  system_nrf52840.o
+  TEMP_IRQHandler            0x00001FED                  2  Code  Wk  ses_startup_nrf52840.o
+  TIMER0_IRQHandler          0x00001FE5                  2  Code  Wk  ses_startup_nrf52840.o
+  TIMER1_IRQHandler          0x00001FE7                  2  Code  Wk  ses_startup_nrf52840.o
+  TIMER2_IRQHandler          0x00001FE9                  2  Code  Wk  ses_startup_nrf52840.o
+  TIMER3_IRQHandler          0x00002009                  2  Code  Wk  ses_startup_nrf52840.o
+  TIMER4_IRQHandler          0x0000200B                  2  Code  Wk  ses_startup_nrf52840.o
+  UARTE0_UART0_IRQHandler    0x00001FD9                  2  Code  Wk  ses_startup_nrf52840.o
+  UARTE1_IRQHandler          0x00002021                  2  Code  Wk  ses_startup_nrf52840.o
+  USBD_IRQHandler            0x0000201F                  2  Code  Wk  ses_startup_nrf52840.o
+  WDT_IRQHandler             0x00001FF5                  2  Code  Wk  ses_startup_nrf52840.o
+  _DelayUntil                0x000006A9          72      4  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  _DoInit                    0x00003A49         156      2  Code  Lc  SEGGER_RTT.o
+  _DropTxData                0x0000220D          38      2  Code  Lc  JLINKMEM_Process.o
+  _EncodeStr                 0x00003EF5         136      2  Code  Lc  SEGGER_SYSVIEW.o
+  _EvaPacket                 0x000011C5         632      4  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _FillTxBuf                 0x000037A5         184      2  Code  Lc  JLINKMEM_Process.o
+  _GetAvailWriteSpace        0x000025D7          58      2  Code  Lc  SEGGER_RTT.o
+  _HandleIncomingPacket      0x00004971         208      2  Code  Lc  SEGGER_SYSVIEW.o
+  _Init                      0x00002193         122      2  Code  Lc  JLINKMEM_Process.o
+  _LockTxBuf                 0x00003749          92      2  Code  Lc  JLINKMEM_Process.o
+  _OS_GetHWTimerCycles       0x00003A19          12      2  Code  Lc  RTOSInit_nRF5x.o
+  _OS_GetHWTimer_IntPending  0x00003A25          16      2  Code  Lc  RTOSInit_nRF5x.o
+  _OnTx                      0x00001461         292      4  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _PreparePacket             0x00003DDD          12      2  Code  Lc  SEGGER_SYSVIEW.o
+  _Receive                   0x00002233         138      2  Code  Lc  JLINKMEM_Process.o
+  _RetriggerTimer            0x00003899          16      2  Code  Lc  JLINKMEM_Process.o
+  _Send                      0x000022BD         102      2  Code  Lc  JLINKMEM_Process.o
+  _SendPacket                0x00002895         446      2  Code  Lc  SEGGER_SYSVIEW.o
+  _StartSend                 0x00001649          68      4  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _StopTimer                 0x00002331          14      2  Code  Lc  JLINKMEM_Process.o
+  _StoreOutString            0x0000168D          80      4  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _TrySendOverflowPacket     0x000030BB         222      2  Code  Lc  SEGGER_SYSVIEW.o
+  _UnlockTxBuf               0x00002323          14      2  Code  Lc  JLINKMEM_Process.o
+  _WriteBlocking             0x00002611         206      2  Code  Lc  SEGGER_RTT.o
+  _WriteNoCheck              0x00003BFD         136      2  Code  Lc  SEGGER_RTT.o
+  __NVIC_SetPriority         0x0000248D          62      2  Code  Lc  RTOSInit_nRF5x.o
+  __SEGGER_RTL_init_prin     0x00004EB9           8      2  Code  Gb  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __SEGGER_RTL_pre_padding   0x0000359B          18      2  Code  Gb  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __SEGGER_RTL_prin_flush    0x00004E1D          24      2  Code  Gb  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __SEGGER_RTL_print_padding
+                             0x0000357D          30      2  Code  Gb  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __SEGGER_RTL_putc          0x00004E35         132      2  Code  Gb  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __SEGGER_RTL_stdout_write  0x00004E11          12      2  Code  Lc  prinops_scanops_rtt.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __SEGGER_RTL_vfprintf      0x0000185D       1 184      4  Code  Gb  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __SEGGER_RTL_vfprintf_long
+                             0x0000185D       1 184      4  Code  Gb  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __SEGGER_init_copy         0x00005033          20      2  Code  Wk  SEGGER_crtinit_v7em_little.o
+  __SEGGER_init_ctors        0x00004FCD          24      4  Code  Wk  SEGGER_crtinit_v7em_little.o
+  __SEGGER_init_done         0x0000020B                  4  Code  Gb  SEGGER_THUMB_Startup.o
+  __SEGGER_init_heap         0x00004FB1          20      4  Code  Wk  SEGGER_crtinit_v7em_little.o
+  __SEGGER_init_zero         0x00005021          18      2  Code  Wk  SEGGER_crtinit_v7em_little.o
+  __aeabi_memclr             0x00001849          18      4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __aeabi_memclr4            0x00001849                  4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __aeabi_memclr8            0x00001849                  4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __aeabi_memcpy             0x0000183D                  4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __aeabi_memcpy4            0x0000183D                  4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __aeabi_memcpy8            0x0000183D                  4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __aeabi_memset             0x0000184B                  4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __aeabi_memset4            0x0000184B                  4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __aeabi_memset8            0x0000184B                  4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __aeabi_uldivmod           0x000016DD         206      4  Code  Wk  intasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  _cbSendSystemDesc          0x00004A41          32      2  Code  Lc  SEGGER_SYSVIEW_Config_embOS.o
+  _cbSendTaskInfo            0x00004A61          64      2  Code  Lc  SEGGER_SYSVIEW_embOS.o
+  _cbSendTaskList            0x00004AA1          80      2  Code  Lc  SEGGER_SYSVIEW_embOS.o
+  _start                     0x00000201          14      4  Code  Gb  SEGGER_THUMB_Startup.o
+  errata_103                 0x0000341D          50      2  Code  Lc  system_nrf52840.o
+  errata_115                 0x0000344F          50      2  Code  Lc  system_nrf52840.o
+  errata_120                 0x00003481          50      2  Code  Lc  system_nrf52840.o
+  errata_136                 0x000034B3          94      2  Code  Lc  system_nrf52840.o
+  errata_36                  0x0000332F          94      2  Code  Lc  system_nrf52840.o
+  errata_66                  0x0000338D          94      2  Code  Lc  system_nrf52840.o
+  errata_98                  0x000033EB          50      2  Code  Lc  system_nrf52840.o
+  exit                       0x0000020F           2      4  Code  Gb  SEGGER_THUMB_Startup.o
+  isPrime                    0x000020FF          62      2  Code  Lc  OS_StartLEDBlink.o
+  main                       0x0000202D         154      2  Code  Gb  OS_StartLEDBlink.o
+  memcpy                     0x0000183D          12      4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  memset                     0x00001851                  4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  nRFInitialize              0x00001FB5                  4  Code  Gb  ses_startup_nrf52840.o
+  printf                     0x00003537          70      2  Code  Gb  prinops_scanops_rtt.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  printf_rtt                 0x00003537          70      2  Code  Gb  prinops_scanops_rtt.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  reset_handler              0x000035AD                  2  Code  Gb  ses_startup_nrf_common.o
+  strcpy                     0x000017AD          58      4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  strlen                     0x000017E9          82      4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  strnlen                    0x00003511          38      2  Code  Wk  strops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+
+Function symbols by address and then by name:
+
+     Address  Symbol name                      Size  Align  Type  Bd  Object File
+  ----------  -------------------------  ----------  -----  ----  --  -----------
+  0x00000201  _start                             14      4  Code  Gb  SEGGER_THUMB_Startup.o
+  0x0000020B  __SEGGER_init_done                         4  Code  Gb  SEGGER_THUMB_Startup.o
+  0x0000020F  exit                                2      4  Code  Gb  SEGGER_THUMB_Startup.o
+  0x00000215  OS_STACK_GetSysStackBase            8      4  Code  Gb  OS_StackInfo.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000021D  OS_STACK_GetSysStackSize           16      4  Code  Gb  OS_StackInfo.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000022D  OS_ARMv7M_Init                    144      4  Code  Gb  OS_ARMv7M_Init.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000002BD  OS_GetCPUState                     44      4  Code  Gb  OS_ARMv7M_GetCPUState.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000002E9  OS_TRACE_SetAPI                    20      4  Code  Gb  OS_Trace.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000002FD  OS__TIME_GetCycles                136      4  Code  Gb  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000385  OS__TIME_ConvertCycles2us          48      4  Code  Gb  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000003B5  OS_TIME_ConfigSysTimer            184      4  Code  Gb  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000046D  OS_TIME_Getus64                    68      4  Code  Gb  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000004B1  OS_TASK_LeaveRegion               104      4  Code  Gb  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000519  OS_TASK_Create_DP                 320      4  Code  Gb  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000659  OS_TASK_Delay                      80      4  Code  Gb  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000006A9  _DelayUntil                        72      4  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000006F1  OS_TASK_GetName                    96      4  Code  Gb  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000751  OS_TASK_GetTimeSliceRem           140      4  Code  Gb  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000007DD  OS_TICK_Handle                    128      4  Code  Gb  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000085D  OS_AssertCPUInISRMode              44      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000889  OS_ChangeTask_VFP                 864      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000BE9  OS_MakeTaskReady                  148      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000C7D  OS_InsertTask                     132      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000D01  OS_Deactivated                     64      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000D41  OS_EnableProfiling                100      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000DA5  OS_EnterRegionFunc                 16      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000DB5  OS_SaveMainStack                   52      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000DE9  OS_TaskInit                        40      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000E11  OS_Init_VFP                       188      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000ECD  OS__Start                          56      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000F05  OS_STAT_GetExecTime               212      4  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00000FD9  OS_INFO_GetCPU                     64      4  Code  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001019  OS_INFO_GetLibName                 64      4  Code  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001059  OS_INFO_GetVersion                 64      4  Code  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001099  OS_STACK_GetTaskStackBase         140      4  Code  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001125  OS_STACK_GetTaskStackSize         140      4  Code  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000011B1  OS_COM_ClearTxActive               20      4  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000011C5  _EvaPacket                        632      4  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000143D  OS_COM_GetInU16                    36      4  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001461  _OnTx                             292      4  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001585  OS_COM_StoreOutU16                 40      4  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000015AD  OS_COM_OnRx                       156      4  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001649  _StartSend                         68      4  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000168D  _StoreOutString                    80      4  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000016DD  __aeabi_uldivmod                  206      4  Code  Wk  intasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x000017AD  strcpy                             58      4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x000017E9  strlen                             82      4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000183D  __aeabi_memcpy                             4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000183D  __aeabi_memcpy4                            4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000183D  __aeabi_memcpy8                            4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000183D  memcpy                             12      4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00001849  __aeabi_memclr                     18      4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00001849  __aeabi_memclr4                            4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00001849  __aeabi_memclr8                            4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000184B  __aeabi_memset                             4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000184B  __aeabi_memset4                            4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000184B  __aeabi_memset8                            4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00001851  memset                                     4  Code  Wk  strasmops_arm.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000185D  __SEGGER_RTL_vfprintf           1 184      4  Code  Gb  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000185D  __SEGGER_RTL_vfprintf_long
+                                              1 184      4  Code  Gb  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00001D6D  HardFault_Handler                          4  Code  Gb  HardFaultHandler.o
+  0x00001D85  SEGGER_RTT_ASM_WriteSkipNoLock
+                                                         4  Code  Gb  SEGGER_RTT_ASM_ARMv7M.o
+  0x00001E19  PendSV_Handler                             4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001EB5  OS_StartTask                               4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001EC9  OS_StartASM                                4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001F15  OS_StopASM                                 4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001F2F  OS_Switch                                  4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001F51  OS_SwitchAfterISR_CortexM                  4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001F5F  OS_SwitchFromInt                           4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001FB5  nRFInitialize                              4  Code  Gb  ses_startup_nrf52840.o
+  0x00001FD1  NMI_Handler                                2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FD3  SVC_Handler                                2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FD5  POWER_CLOCK_IRQHandler                     2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FD7  RADIO_IRQHandler                           2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FD9  UARTE0_UART0_IRQHandler                    2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FDB  SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+                                                         2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FDD  SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler
+                                                         2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FDF  NFCT_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FE1  GPIOTE_IRQHandler                          2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FE3  SAADC_IRQHandler                           2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FE5  TIMER0_IRQHandler                          2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FE7  TIMER1_IRQHandler                          2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FE9  TIMER2_IRQHandler                          2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FEB  RTC0_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FED  TEMP_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FEF  RNG_IRQHandler                             2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FF1  ECB_IRQHandler                             2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FF3  CCM_AAR_IRQHandler                         2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FF5  WDT_IRQHandler                             2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FF7  RTC1_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FF9  QDEC_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FFB  COMP_LPCOMP_IRQHandler                     2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FFD  SWI0_EGU0_IRQHandler                       2  Code  Wk  ses_startup_nrf52840.o
+  0x00001FFF  SWI1_EGU1_IRQHandler                       2  Code  Wk  ses_startup_nrf52840.o
+  0x00002001  SWI2_EGU2_IRQHandler                       2  Code  Wk  ses_startup_nrf52840.o
+  0x00002003  SWI3_EGU3_IRQHandler                       2  Code  Wk  ses_startup_nrf52840.o
+  0x00002005  SWI4_EGU4_IRQHandler                       2  Code  Wk  ses_startup_nrf52840.o
+  0x00002007  SWI5_EGU5_IRQHandler                       2  Code  Wk  ses_startup_nrf52840.o
+  0x00002009  TIMER3_IRQHandler                          2  Code  Wk  ses_startup_nrf52840.o
+  0x0000200B  TIMER4_IRQHandler                          2  Code  Wk  ses_startup_nrf52840.o
+  0x0000200D  PWM0_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x0000200F  PDM_IRQHandler                             2  Code  Wk  ses_startup_nrf52840.o
+  0x00002011  MWU_IRQHandler                             2  Code  Wk  ses_startup_nrf52840.o
+  0x00002013  PWM1_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x00002015  PWM2_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x00002017  SPIM2_SPIS2_SPI2_IRQHandler
+                                                         2  Code  Wk  ses_startup_nrf52840.o
+  0x00002019  RTC2_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x0000201B  I2S_IRQHandler                             2  Code  Wk  ses_startup_nrf52840.o
+  0x0000201D  FPU_IRQHandler                             2  Code  Wk  ses_startup_nrf52840.o
+  0x0000201F  USBD_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x00002021  UARTE1_IRQHandler                          2  Code  Wk  ses_startup_nrf52840.o
+  0x00002023  QSPI_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x00002025  CRYPTOCELL_IRQHandler                      2  Code  Wk  ses_startup_nrf52840.o
+  0x00002027  PWM3_IRQHandler                            2  Code  Wk  ses_startup_nrf52840.o
+  0x00002029  SPIM3_IRQHandler                           2  Code  Wk  ses_startup_nrf52840.o
+  0x0000202B  Dummy_Handler                              2  Code  Wk  ses_startup_nrf52840.o
+  0x0000202D  main                              154      2  Code  Gb  OS_StartLEDBlink.o
+  0x000020C7  HPTask                             18      2  Code  Lc  OS_StartLEDBlink.o
+  0x000020D9  LPTask                             38      2  Code  Lc  OS_StartLEDBlink.o
+  0x000020FF  isPrime                            62      2  Code  Lc  OS_StartLEDBlink.o
+  0x0000213D  BSP_ToggleLED                      86      2  Code  Gb  BSP.o
+  0x00002193  _Init                             122      2  Code  Lc  JLINKMEM_Process.o
+  0x0000220D  _DropTxData                        38      2  Code  Lc  JLINKMEM_Process.o
+  0x00002233  _Receive                          138      2  Code  Lc  JLINKMEM_Process.o
+  0x000022BD  _Send                             102      2  Code  Lc  JLINKMEM_Process.o
+  0x00002323  _UnlockTxBuf                       14      2  Code  Lc  JLINKMEM_Process.o
+  0x00002331  _StopTimer                         14      2  Code  Lc  JLINKMEM_Process.o
+  0x0000233F  SysTick_Handler                   334      2  Code  Gb  RTOSInit_nRF5x.o
+  0x0000248D  __NVIC_SetPriority                 62      2  Code  Lc  RTOSInit_nRF5x.o
+  0x000024CB  OS_Idle                             2      2  Code  Gb  RTOSInit_nRF5x.o
+  0x000024CD  HardFaultHandler                  266      2  Code  Gb  SEGGER_HardFaultHandler.o
+  0x000025D7  _GetAvailWriteSpace                58      2  Code  Lc  SEGGER_RTT.o
+  0x00002611  _WriteBlocking                    206      2  Code  Lc  SEGGER_RTT.o
+  0x000026DF  SEGGER_RTT_WriteNoLock            162      2  Code  Gb  SEGGER_RTT.o
+  0x00002781  SEGGER_RTT_AllocUpBuffer          222      2  Code  Gb  SEGGER_RTT.o
+  0x0000285F  SEGGER_SYSVIEW_RecordVoid          54      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00002895  _SendPacket                       446      2  Code  Lc  SEGGER_SYSVIEW.o
+  0x00002A53  SEGGER_SYSVIEW_RecordU32          110      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00002AC1  SEGGER_SYSVIEW_RecordU32x2
+                                                162      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00002B63  SEGGER_SYSVIEW_RecordU32x3
+                                                214      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00002C39  SEGGER_SYSVIEW_RecordU32x5
+                                                322      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00002D7B  SEGGER_SYSVIEW_Start              374      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00002EF1  SEGGER_SYSVIEW_SendNumModules
+                                                114      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00002F63  SEGGER_SYSVIEW_SendSysDesc
+                                                 66      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00002FA5  SEGGER_SYSVIEW_RecordEnterISR
+                                                122      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x0000301F  SEGGER_SYSVIEW_NameResource
+                                                134      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x000030A5  SEGGER_SYSVIEW_ShrinkId            22      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x000030BB  _TrySendOverflowPacket            222      2  Code  Lc  SEGGER_SYSVIEW.o
+  0x00003199  SEGGER_SYSVIEW_Conf                98      2  Code  Gb  SEGGER_SYSVIEW_Config_embOS.o
+  0x000031FB  OUTLINED_FUNCTION_0                10      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003205  OUTLINED_FUNCTION_1                 6      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000320B  OUTLINED_FUNCTION_3                 6      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003211  OUTLINED_FUNCTION_5                 6      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003217  OUTLINED_FUNCTION_6                 6      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000321D  OUTLINED_FUNCTION_7                 6      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003223  OUTLINED_FUNCTION_1                 6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003229  OUTLINED_FUNCTION_3                 6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000322F  OUTLINED_FUNCTION_4                 6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003235  OUTLINED_FUNCTION_5                 6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000323B  OUTLINED_FUNCTION_6                 6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003241  OUTLINED_FUNCTION_10               18      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003253  OUTLINED_FUNCTION_11                6      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003259  OUTLINED_FUNCTION_12               14      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003267  OUTLINED_FUNCTION_14               14      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003275  OUTLINED_FUNCTION_0                26      2  Code  Lc  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000328F  OUTLINED_FUNCTION_2                10      2  Code  Lc  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003299  OUTLINED_FUNCTION_3                10      2  Code  Lc  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032A3  OS_RemoveTaskFromWaitList          18      2  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032B5  OS_TerminateError                   6      2  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032BB  OUTLINED_FUNCTION_0                 6      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032C1  OUTLINED_FUNCTION_2                 6      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032C7  OUTLINED_FUNCTION_4                 6      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032CD  OUTLINED_FUNCTION_5                 6      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032D3  OUTLINED_FUNCTION_9                 6      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032D9  OUTLINED_FUNCTION_1                 6      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032DF  OUTLINED_FUNCTION_3                 6      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032E5  OUTLINED_FUNCTION_4                 6      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032EB  OUTLINED_FUNCTION_7                 6      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032F1  OUTLINED_FUNCTION_8                 6      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x000032F7  OS_COM_GetInU32                    18      2  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003309  OS_COM_StoreOutU32                 18      2  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000331B  OUTLINED_FUNCTION_0                14      2  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00003329  OUTLINED_FUNCTION_1                 6      2  Code  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x0000332F  errata_36                          94      2  Code  Lc  system_nrf52840.o
+  0x0000338D  errata_66                          94      2  Code  Lc  system_nrf52840.o
+  0x000033EB  errata_98                          50      2  Code  Lc  system_nrf52840.o
+  0x0000341D  errata_103                         50      2  Code  Lc  system_nrf52840.o
+  0x0000344F  errata_115                         50      2  Code  Lc  system_nrf52840.o
+  0x00003481  errata_120                         50      2  Code  Lc  system_nrf52840.o
+  0x000034B3  errata_136                         94      2  Code  Lc  system_nrf52840.o
+  0x00003511  strnlen                            38      2  Code  Wk  strops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00003537  printf                             70      2  Code  Gb  prinops_scanops_rtt.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00003537  printf_rtt                         70      2  Code  Gb  prinops_scanops_rtt.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000357D  __SEGGER_RTL_print_padding
+                                                 30      2  Code  Gb  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x0000359B  __SEGGER_RTL_pre_padding           18      2  Code  Gb  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x000035AD  Reset_Handler                              2  Code  Gb  ses_startup_nrf_common.o
+  0x000035AD  reset_handler                              2  Code  Gb  ses_startup_nrf_common.o
+  0x000035B9  BSP_Init                           28      2  Code  Gb  BSP.o
+  0x000035D5  JLINKMEM_Process                  184      2  Code  Gb  JLINKMEM_Process.o
+  0x0000368D  JLINKMEM_SendChar                 188      2  Code  Gb  JLINKMEM_Process.o
+  0x00003749  _LockTxBuf                         92      2  Code  Lc  JLINKMEM_Process.o
+  0x000037A5  _FillTxBuf                        184      2  Code  Lc  JLINKMEM_Process.o
+  0x0000385D  JLINKMEM_SetpfOnRx                 20      2  Code  Gb  JLINKMEM_Process.o
+  0x00003871  JLINKMEM_SetpfOnTx                 20      2  Code  Gb  JLINKMEM_Process.o
+  0x00003885  JLINKMEM_SetpfGetNextChar          20      2  Code  Gb  JLINKMEM_Process.o
+  0x00003899  _RetriggerTimer                    16      2  Code  Lc  JLINKMEM_Process.o
+  0x000038A9  OS_Error                           64      2  Code  Gb  OS_Error.o
+  0x000038E9  OS_InitHW                         224      2  Code  Gb  RTOSInit_nRF5x.o
+  0x000039C9  SysTick_Config                     80      2  Code  Lc  RTOSInit_nRF5x.o
+  0x00003A19  _OS_GetHWTimerCycles               12      2  Code  Lc  RTOSInit_nRF5x.o
+  0x00003A25  _OS_GetHWTimer_IntPending          16      2  Code  Lc  RTOSInit_nRF5x.o
+  0x00003A35  OS_COM_Send1                       20      2  Code  Gb  RTOSInit_nRF5x.o
+  0x00003A49  _DoInit                           156      2  Code  Lc  SEGGER_RTT.o
+  0x00003AE5  SEGGER_RTT_ReadNoLock             280      2  Code  Gb  SEGGER_RTT.o
+  0x00003BFD  _WriteNoCheck                     136      2  Code  Lc  SEGGER_RTT.o
+  0x00003C85  SEGGER_RTT_Write                   68      2  Code  Gb  SEGGER_RTT.o
+  0x00003CC9  SEGGER_RTT_ConfigDownBuffer
+                                                148      2  Code  Gb  SEGGER_RTT.o
+  0x00003D5D  SEGGER_SYSVIEW_Init               128      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00003DDD  _PreparePacket                     12      2  Code  Lc  SEGGER_SYSVIEW.o
+  0x00003DE9  SEGGER_SYSVIEW_RecordU32x4
+                                                268      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00003EF5  _EncodeStr                        136      2  Code  Lc  SEGGER_SYSVIEW.o
+  0x00003F7D  SEGGER_SYSVIEW_RecordSystime
+                                                 80      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00003FCD  SEGGER_SYSVIEW_SendTaskList
+                                                 48      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00003FFD  SEGGER_SYSVIEW_Stop                76      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004049  SEGGER_SYSVIEW_GetSysDesc         304      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004179  SEGGER_SYSVIEW_SendTaskInfo
+                                                420      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x0000431D  SEGGER_SYSVIEW_RecordExitISR
+                                                 52      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004351  SEGGER_SYSVIEW_RecordExitISRToScheduler
+                                                 52      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004385  SEGGER_SYSVIEW_RecordEnterTimer
+                                                120      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x000043FD  SEGGER_SYSVIEW_RecordExitTimer
+                                                 52      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004431  SEGGER_SYSVIEW_RecordEndCall
+                                                108      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x0000449D  SEGGER_SYSVIEW_RecordEndCallU32
+                                                160      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x0000453D  SEGGER_SYSVIEW_OnIdle              52      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004571  SEGGER_SYSVIEW_OnTaskCreate
+                                                124      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x000045ED  SEGGER_SYSVIEW_OnTaskTerminate
+                                                124      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004669  SEGGER_SYSVIEW_OnTaskStartExec
+                                                124      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x000046E5  SEGGER_SYSVIEW_OnTaskStopExec
+                                                 52      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004719  SEGGER_SYSVIEW_OnTaskStartReady
+                                                124      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004795  SEGGER_SYSVIEW_OnTaskStopReady
+                                                176      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004845  SEGGER_SYSVIEW_SendModule         244      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004939  SEGGER_SYSVIEW_SendModuleDescription
+                                                 56      2  Code  Gb  SEGGER_SYSVIEW.o
+  0x00004971  _HandleIncomingPacket             208      2  Code  Lc  SEGGER_SYSVIEW.o
+  0x00004A41  _cbSendSystemDesc                  32      2  Code  Lc  SEGGER_SYSVIEW_Config_embOS.o
+  0x00004A61  _cbSendTaskInfo                    64      2  Code  Lc  SEGGER_SYSVIEW_embOS.o
+  0x00004AA1  _cbSendTaskList                    80      2  Code  Lc  SEGGER_SYSVIEW_embOS.o
+  0x00004AF1  OS_STACK_GetSP                      4      2  Code  Gb  OS_StackInfo.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004AF5  OUTLINED_FUNCTION_2                 8      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004AFD  OUTLINED_FUNCTION_4                 8      2  Code  Lc  OS_Timing.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B05  OUTLINED_FUNCTION_0                 8      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B0D  OUTLINED_FUNCTION_2                 8      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B15  OUTLINED_FUNCTION_9                 8      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B1D  OUTLINED_FUNCTION_13               16      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B2D  OUTLINED_FUNCTION_16                8      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B35  OUTLINED_FUNCTION_17                8      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B3D  OUTLINED_FUNCTION_18               12      2  Code  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B49  OUTLINED_FUNCTION_1                 8      2  Code  Lc  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B51  OS_AssertCPUNotInIllegalState
+                                                 44      2  Code  Gb  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B7D  OUTLINED_FUNCTION_6                 8      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B85  OUTLINED_FUNCTION_7                 8      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B8D  OUTLINED_FUNCTION_10               12      2  Code  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004B99  OUTLINED_FUNCTION_0                 8      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004BA1  OUTLINED_FUNCTION_2                 8      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004BA9  OUTLINED_FUNCTION_5                 8      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004BB1  OUTLINED_FUNCTION_6                 8      2  Code  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004BB9  OS_COM_GetNextChar                  4      2  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004BBD  OS_COM_OnTx                        24      2  Code  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004BD5  SystemCoreClockUpdate              20      2  Code  Gb  system_nrf52840.o
+  0x00004BE9  SystemInit                        552      2  Code  Gb  system_nrf52840.o
+  0x00004E11  __SEGGER_RTL_stdout_write          12      2  Code  Lc  prinops_scanops_rtt.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00004E1D  __SEGGER_RTL_prin_flush            24      2  Code  Gb  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00004E35  __SEGGER_RTL_putc                 132      2  Code  Gb  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00004EB9  __SEGGER_RTL_init_prin              8      2  Code  Gb  prinops.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00004FB1  __SEGGER_init_heap                 20      4  Code  Wk  SEGGER_crtinit_v7em_little.o
+  0x00004FCD  __SEGGER_init_ctors                24      4  Code  Wk  SEGGER_crtinit_v7em_little.o
+  0x00005021  __SEGGER_init_zero                 18      2  Code  Wk  SEGGER_crtinit_v7em_little.o
+  0x00005033  __SEGGER_init_copy                 20      2  Code  Wk  SEGGER_crtinit_v7em_little.o
+
+Read-write data symbols by name and then by address:
+
+  Symbol name                   Address        Size  Align  Type  Bd  Object File
+  -------------------------  ----------  ----------  -----  ----  --  -----------
+  HardFaultRegs              0x20000710          64      4  Zero  Lc  SEGGER_HardFaultHandler.o
+  OS_COM_pTask               0x20000058           4      8  Zero  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_Global                  0x20000000          72      8  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_InTimer                 0x200010EF           1         Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_InitCalled              0x200010EE           1         Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_InitialSuspendCnt       0x200010ED           1         Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_Running                 0x200010EC           1         Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_STAT_AddLoadMeasurement._TCB
+                             0x200005FC          92      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_Status                  0x200007EC           2      2  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_SysTimer_Settings       0x20000778          32      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TS_ExecStart            0x200007E8           4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TickStep                0x200010EB           1         Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_TickStepTime            0x200007E4           4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_pDefaultTaskContextExtension
+                             0x200007E0           4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_pMainContext            0x200007DC           4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_pObjNameRoot            0x200007D8           4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_pTickHookRoot           0x200007D4           4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_pfTaskStartHook         0x200007D0           4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  SEGGER_SYSVIEW_TickCnt     0x200007CC           4      4  Zero  Gb  SEGGER_SYSVIEW.o
+  StackHP                    0x20000270         512      4  Zero  Lc  OS_StartLEDBlink.o
+  StackLP                    0x20000070         512      4  Zero  Lc  OS_StartLEDBlink.o
+  SystemCoreClock            0x200010F8           4      4  Init  Gb  system_nrf52840.o
+  TCBHP                      0x200006B4          92      4  Zero  Lc  OS_StartLEDBlink.o
+  TCBLP                      0x20000658          92      4  Zero  Lc  OS_StartLEDBlink.o
+  _BaseAddr                  0x200007C8           4      4  Zero  Lc  JLINKMEM_Process.o
+  _ChkSum                    0x20000051           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _Continue                  0x200007C4           4      4  Zero  Lc  SEGGER_HardFaultHandler.o
+  _DownBuffer                0x200010E1           8         Zero  Lc  SEGGER_SYSVIEW.o
+  _InBufferCnt               0x2000004B           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _InCheckSum                0x20000050           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _InInt                     0x2000004D           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _InRdOff                   0x2000004C           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _InStage                   0x2000004E           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _IsInited                  0x200007C0           4      4  Zero  Lc  JLINKMEM_Process.o
+  _NumModules                0x200010EA           1         Zero  Lc  SEGGER_SYSVIEW.o
+  _OS_COM_pac                0x20000060           4      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OS_CPU_LoadAutoAdjust     0x200005E0           1      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OS_CPU_LoadDefaultMax     0x200005E8           4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OS_ProfilingExTime        0x200005E4           4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OS_STAT_SampleDelta       0x200005EC           4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OS_STAT_SampleTime        0x200005F0           4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OS_StringLen              0x20000049           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OS_TimeFractPerInt        0x200010F0           4      4  Init  Gb  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OS_TimeFractPerTick       0x200010F4           4      4  Init  Gb  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OS_TxActive               0x20000048           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OutBufferCnt              0x20000052           2      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _OutStage                  0x2000004A           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _RemLen                    0x2000004F           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _SEGGER_RTT                0x20000538         168      4  Zero  Gb  SEGGER_RTT.o
+  _SYSVIEW_Globals           0x20000750          40      4  Zero  Lc  SEGGER_SYSVIEW.o
+  _TxBufLocked               0x200007BC           4      4  Zero  Lc  JLINKMEM_Process.o
+  _TxCnt                     0x20000054           2      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _TxIsPending               0x200007B8           4      4  Zero  Lc  JLINKMEM_Process.o
+  _TxPendingData             0x200010E9           1         Zero  Lc  JLINKMEM_Process.o
+  _TxTimeout                 0x200007B4           4      4  Zero  Lc  JLINKMEM_Process.o
+  _TxTimeoutTimer            0x200007B0           4      4  Zero  Lc  JLINKMEM_Process.o
+  _UpBuffer                  0x20000BEE       1 024         Zero  Lc  SEGGER_SYSVIEW.o
+  _aPacket                   0x20000FEE         227         Zero  Lc  SEGGER_SYSVIEW.o
+  _abInBuffer                0x20000068           8      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _abOutBuffer               0x20000470         200      4  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _acDownBuffer              0x200010D1          16         Zero  Lc  SEGGER_RTT.o
+  _acUpBuffer                0x200007EE       1 024         Zero  Lc  SEGGER_RTT.o
+  _pFirstModule              0x200007AC           4      4  Zero  Lc  SEGGER_SYSVIEW.o
+  _pRxBuf                    0x200007A8           4      4  Zero  Lc  JLINKMEM_Process.o
+  _pTxBuf                    0x200007A4           4      4  Zero  Lc  JLINKMEM_Process.o
+  _pfGetNextChar             0x200007A0           4      4  Zero  Gb  JLINKMEM_Process.o
+  _pfOnRx                    0x2000079C           4      4  Zero  Gb  JLINKMEM_Process.o
+  _pfOnTx                    0x20000798           4      4  Zero  Gb  JLINKMEM_Process.o
+  _pfRXCallBack              0x2000005C           4      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  _pfResetFunc               0x200005F4           4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  _pfTriggerFunc             0x200005F8           4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+
+Read-write data symbols by address and then by name:
+
+     Address  Symbol name                      Size  Align  Type  Bd  Object File
+  ----------  -------------------------  ----------  -----  ----  --  -----------
+  0x20000000  OS_Global                          72      8  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000048  _OS_TxActive                        1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000049  _OS_StringLen                       1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x2000004A  _OutStage                           1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x2000004B  _InBufferCnt                        1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x2000004C  _InRdOff                            1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x2000004D  _InInt                              1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x2000004E  _InStage                            1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x2000004F  _RemLen                             1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000050  _InCheckSum                         1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000051  _ChkSum                             1      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000052  _OutBufferCnt                       2      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000054  _TxCnt                              2      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000058  OS_COM_pTask                        4      8  Zero  Gb  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x2000005C  _pfRXCallBack                       4      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000060  _OS_COM_pac                         4      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000068  _abInBuffer                         8      8  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000070  StackLP                           512      4  Zero  Lc  OS_StartLEDBlink.o
+  0x20000270  StackHP                           512      4  Zero  Lc  OS_StartLEDBlink.o
+  0x20000470  _abOutBuffer                      200      4  Zero  Lc  OS_Com.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000538  _SEGGER_RTT                       168      4  Zero  Gb  SEGGER_RTT.o
+  0x200005E0  _OS_CPU_LoadAutoAdjust              1      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200005E4  _OS_ProfilingExTime                 4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200005E8  _OS_CPU_LoadDefaultMax              4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200005EC  _OS_STAT_SampleDelta                4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200005F0  _OS_STAT_SampleTime                 4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200005F4  _pfResetFunc                        4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200005F8  _pfTriggerFunc                      4      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200005FC  OS_STAT_AddLoadMeasurement._TCB
+                                                 92      4  Zero  Lc  OS_Kern.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000658  TCBLP                              92      4  Zero  Lc  OS_StartLEDBlink.o
+  0x200006B4  TCBHP                              92      4  Zero  Lc  OS_StartLEDBlink.o
+  0x20000710  HardFaultRegs                      64      4  Zero  Lc  SEGGER_HardFaultHandler.o
+  0x20000750  _SYSVIEW_Globals                   40      4  Zero  Lc  SEGGER_SYSVIEW.o
+  0x20000778  OS_SysTimer_Settings               32      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x20000798  _pfOnTx                             4      4  Zero  Gb  JLINKMEM_Process.o
+  0x2000079C  _pfOnRx                             4      4  Zero  Gb  JLINKMEM_Process.o
+  0x200007A0  _pfGetNextChar                      4      4  Zero  Gb  JLINKMEM_Process.o
+  0x200007A4  _pTxBuf                             4      4  Zero  Lc  JLINKMEM_Process.o
+  0x200007A8  _pRxBuf                             4      4  Zero  Lc  JLINKMEM_Process.o
+  0x200007AC  _pFirstModule                       4      4  Zero  Lc  SEGGER_SYSVIEW.o
+  0x200007B0  _TxTimeoutTimer                     4      4  Zero  Lc  JLINKMEM_Process.o
+  0x200007B4  _TxTimeout                          4      4  Zero  Lc  JLINKMEM_Process.o
+  0x200007B8  _TxIsPending                        4      4  Zero  Lc  JLINKMEM_Process.o
+  0x200007BC  _TxBufLocked                        4      4  Zero  Lc  JLINKMEM_Process.o
+  0x200007C0  _IsInited                           4      4  Zero  Lc  JLINKMEM_Process.o
+  0x200007C4  _Continue                           4      4  Zero  Lc  SEGGER_HardFaultHandler.o
+  0x200007C8  _BaseAddr                           4      4  Zero  Lc  JLINKMEM_Process.o
+  0x200007CC  SEGGER_SYSVIEW_TickCnt              4      4  Zero  Gb  SEGGER_SYSVIEW.o
+  0x200007D0  OS_pfTaskStartHook                  4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200007D4  OS_pTickHookRoot                    4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200007D8  OS_pObjNameRoot                     4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200007DC  OS_pMainContext                     4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200007E0  OS_pDefaultTaskContextExtension
+                                                  4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200007E4  OS_TickStepTime                     4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200007E8  OS_TS_ExecStart                     4      4  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200007EC  OS_Status                           2      2  Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200007EE  _acUpBuffer                     1 024         Zero  Lc  SEGGER_RTT.o
+  0x20000BEE  _UpBuffer                       1 024         Zero  Lc  SEGGER_SYSVIEW.o
+  0x20000FEE  _aPacket                          227         Zero  Lc  SEGGER_SYSVIEW.o
+  0x200010D1  _acDownBuffer                      16         Zero  Lc  SEGGER_RTT.o
+  0x200010E1  _DownBuffer                         8         Zero  Lc  SEGGER_SYSVIEW.o
+  0x200010E9  _TxPendingData                      1         Zero  Lc  JLINKMEM_Process.o
+  0x200010EA  _NumModules                         1         Zero  Lc  SEGGER_SYSVIEW.o
+  0x200010EB  OS_TickStep                         1         Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200010EC  OS_Running                          1         Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200010ED  OS_InitialSuspendCnt                1         Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200010EE  OS_InitCalled                       1         Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200010EF  OS_InTimer                          1         Zero  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200010F0  _OS_TimeFractPerInt                 4      4  Init  Gb  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200010F4  _OS_TimeFractPerTick                4      4  Init  Gb  OS_SysTick.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x200010F8  SystemCoreClock                     4      4  Init  Gb  system_nrf52840.o
+
+Read-only data symbols by name and then by address:
+
+  Symbol name                   Address        Size  Align  Type  Bd  Object File
+  -------------------------  ----------  ----------  -----  ----  --  -----------
+  OS_DebugInfo               0x00004F78          24         Cnst  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_INFO_GetCPU.acCPU       0x00004EC7          15         Cnst  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_INFO_GetLibName.acLibName
+                             0x00004ED6           7         Cnst  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_JLINKMEM_BufferSize     0x00001CFC           4      4  Cnst  Gb  RTOSInit_nRF5x.o
+  OS_TASK_GetName.acIdleText
+                             0x00004F1C          10         Cnst  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_Version                 0x00001D64           4      4  Cnst  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_sCopyright              0x00001D68           4      4  Cnst  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  SYSVIEW_X_OS_TraceAPI      0x00001D5C           8      4  Cnst  Gb  SEGGER_SYSVIEW_embOS.o
+  __SEGGER_RTL_hex_lc        0x00004FA0          16         Cnst  Lc  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __SEGGER_RTL_hex_uc        0x00004F90          16         Cnst  Lc  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  __SEGGER_init_data__       0x00005014        [12]      4  Cnst  Lc  [ Linker created ]
+  __SEGGER_init_table__      0x00004FEC        [40]      4  Cnst  Lc  [ Linker created ]
+  _abSync                    0x00004EE4          10         Cnst  Lc  SEGGER_SYSVIEW.o
+  embOS_TraceAPI_SYSVIEW     0x00001D00          92      4  Cnst  Gb  SEGGER_SYSVIEW_embOS.o
+
+Read-only data symbols by address and then by name:
+
+     Address  Symbol name                      Size  Align  Type  Bd  Object File
+  ----------  -------------------------  ----------  -----  ----  --  -----------
+  0x00001CFC  OS_JLINKMEM_BufferSize              4      4  Cnst  Gb  RTOSInit_nRF5x.o
+  0x00001D00  embOS_TraceAPI_SYSVIEW             92      4  Cnst  Gb  SEGGER_SYSVIEW_embOS.o
+  0x00001D5C  SYSVIEW_X_OS_TraceAPI               8      4  Cnst  Gb  SEGGER_SYSVIEW_embOS.o
+  0x00001D64  OS_Version                          4      4  Cnst  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001D68  OS_sCopyright                       4      4  Cnst  Gb  OS_Global.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004EC7  OS_INFO_GetCPU.acCPU               15         Cnst  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004ED6  OS_INFO_GetLibName.acLibName
+                                                  7         Cnst  Lc  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004EE4  _abSync                            10         Cnst  Lc  SEGGER_SYSVIEW.o
+  0x00004F1C  OS_TASK_GetName.acIdleText
+                                                 10         Cnst  Lc  OS_Task.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004F78  OS_DebugInfo                       24         Cnst  Gb  OS_Info.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004F90  __SEGGER_RTL_hex_uc                16         Cnst  Lc  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00004FA0  __SEGGER_RTL_hex_lc                16         Cnst  Lc  __SEGGER_RTL_vfprintf_long.o (libc_v7em_fpv4_sp_d16_t_le_eabi_balanced.a)
+  0x00004FEC  __SEGGER_init_table__            [40]      4  Cnst  Lc  [ Linker created ]
+  0x00005014  __SEGGER_init_data__             [12]      4  Cnst  Lc  [ Linker created ]
+
+Untyped symbols by name and then by address:
+
+  Symbol name                     Value        Size  Align  Type  Bd  Object File
+  -------------------------  ----------  ----------  -----  ----  --  -----------
+  Loop                       0x00001F12                  4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  OS_Switch_End              0x00001F5C                  4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  RestoreCooperative         0x00001E96                  4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  RestorePreemptive          0x00001E88                  4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  SaveCompletedCM4F          0x00001E58                  4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  SaveRegs                   0x00001E38                  4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  SkipSaveMainContext        0x00001EE4                  4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  Skip_VFPRestore            0x00001E76                  4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  Skip_VFPSave               0x00001E4A                  4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  StartIdleCM4F              0x00001E98                  4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  _CSDone                    0x00001DC8                  4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  _Case3                     0x00001E0E                  4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  _Case4                     0x00001DAA                  4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  _CheckCase2                0x00001DD4                  4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  _CheckCase4                0x00001E06                  4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  _LoopCopyAfterWrapAround   0x00001DEE                  4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  _LoopCopyBeforeWrapAround  0x00001DDE                  4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  _LoopCopyStraight          0x00001DB0                  4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  _No2ChunkNeeded            0x00001DFA                  4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  __CODE_RAM1_segment_end__  0x00840000                     ----  Gb  [ Linker created ]
+  __CODE_RAM1_segment_size__
+                             0x00040000                     ----  Gb  [ Linker created ]
+  __CODE_RAM1_segment_start__
+                             0x00800000                     ----  Gb  [ Linker created ]
+  __CODE_RAM1_segment_used_end__
+                             0x00800000                     ----  Gb  [ Linker created ]
+  __CODE_RAM1_segment_used_size__
+                             0x00000000                     ----  Gb  [ Linker created ]
+  __CODE_RAM1_segment_used_start__
+                             0x00800000                     ----  Gb  [ Linker created ]
+  __EXTFLASH1_segment_end__  0x1A000000                     ----  Gb  [ Linker created ]
+  __EXTFLASH1_segment_size__
+                             0x08000000                     ----  Gb  [ Linker created ]
+  __EXTFLASH1_segment_start__
+                             0x12000000                     ----  Gb  [ Linker created ]
+  __EXTFLASH1_segment_used_end__
+                             0x12000000                     ----  Gb  [ Linker created ]
+  __EXTFLASH1_segment_used_size__
+                             0x00000000                     ----  Gb  [ Linker created ]
+  __EXTFLASH1_segment_used_start__
+                             0x12000000                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_end__     0x00100000                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_size__    0x00100000                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_start__   0x00000000                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_used_end__
+                             0x00005046                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_used_size__
+                             0x00005046                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_used_start__
+                             0x00000000                     ----  Gb  [ Linker created ]
+  __FLASH_segment_end__      0x00100000                     ----  Gb  [ Linker created ]
+  __FLASH_segment_size__     0x00100000                     ----  Gb  [ Linker created ]
+  __FLASH_segment_start__    0x00000000                     ----  Gb  [ Linker created ]
+  __FLASH_segment_used_end__
+                             0x00005046                     ----  Gb  [ Linker created ]
+  __FLASH_segment_used_size__
+                             0x00005046                     ----  Gb  [ Linker created ]
+  __FLASH_segment_used_start__
+                             0x00000000                     ----  Gb  [ Linker created ]
+  __HEAPSIZE__               0x00000400                     ----  Gb  [ Linker created ]
+  __RAM1_segment_end__       0x20040000                     ----  Gb  [ Linker created ]
+  __RAM1_segment_size__      0x00040000                     ----  Gb  [ Linker created ]
+  __RAM1_segment_start__     0x20000000                     ----  Gb  [ Linker created ]
+  __RAM1_segment_used_end__  0x20040000                     ----  Gb  [ Linker created ]
+  __RAM1_segment_used_size__
+                             0x00040000                     ----  Gb  [ Linker created ]
+  __RAM1_segment_used_start__
+                             0x20000000                     ----  Gb  [ Linker created ]
+  __RAM_segment_end__        0x20040000                     ----  Gb  [ Linker created ]
+  __RAM_segment_size__       0x00040000                     ----  Gb  [ Linker created ]
+  __RAM_segment_start__      0x20000000                     ----  Gb  [ Linker created ]
+  __RAM_segment_used_end__   0x20040000                     ----  Gb  [ Linker created ]
+  __RAM_segment_used_size__  0x00040000                     ----  Gb  [ Linker created ]
+  __RAM_segment_used_start__
+                             0x20000000                     ----  Gb  [ Linker created ]
+  __STACKSIZE_PROCESS__      0x00000000                     ----  Gb  [ Linker created ]
+  __STACKSIZE__              0x00000400                     ----  Gb  [ Linker created ]
+  __ctors_end__              0x00004F5C                     ----  Gb  [ Linker created ]
+  __ctors_start__            0x00004F58                     ----  Gb  [ Linker created ]
+  __heap_end__               0x20001500                     ----  Gb  [ Linker created ]
+  __heap_start__             0x20001100                     ----  Gb  [ Linker created ]
+  __stack_end__              0x20040000                     ----  Gb  [ Linker created ]
+  __stack_start__            0x2003FC00                     ----  Gb  [ Linker created ]
+  __thread_pointer$          0x00000000                     ----  Gb  [ Linker created ]
+  _vectors                   0x00000000       [512]    512  Code  Gb  ses_startup_nrf52840.o
+  _vectors_end               0x00000200                512  Code  Lc  ses_startup_nrf52840.o
+
+Untyped symbols by address and then by name:
+
+       Value  Symbol name                      Size  Align  Type  Bd  Object File
+  ----------  -------------------------  ----------  -----  ----  --  -----------
+  0x00000000  __CODE_RAM1_segment_used_size__
+                                                            ----  Gb  [ Linker created ]
+  0x00000000  __EXTFLASH1_segment_used_size__
+                                                            ----  Gb  [ Linker created ]
+  0x00000000  __FLASH1_segment_start__                      ----  Gb  [ Linker created ]
+  0x00000000  __FLASH1_segment_used_start__
+                                                            ----  Gb  [ Linker created ]
+  0x00000000  __FLASH_segment_start__                       ----  Gb  [ Linker created ]
+  0x00000000  __FLASH_segment_used_start__
+                                                            ----  Gb  [ Linker created ]
+  0x00000000  __STACKSIZE_PROCESS__                         ----  Gb  [ Linker created ]
+  0x00000000  __thread_pointer$                             ----  Gb  [ Linker created ]
+  0x00000000  _vectors                        [512]    512  Code  Gb  ses_startup_nrf52840.o
+  0x00000200  _vectors_end                             512  Code  Lc  ses_startup_nrf52840.o
+  0x00000400  __HEAPSIZE__                                  ----  Gb  [ Linker created ]
+  0x00000400  __STACKSIZE__                                 ----  Gb  [ Linker created ]
+  0x00001DAA  _Case4                                     4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  0x00001DB0  _LoopCopyStraight                          4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  0x00001DC8  _CSDone                                    4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  0x00001DD4  _CheckCase2                                4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  0x00001DDE  _LoopCopyBeforeWrapAround                  4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  0x00001DEE  _LoopCopyAfterWrapAround                   4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  0x00001DFA  _No2ChunkNeeded                            4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  0x00001E06  _CheckCase4                                4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  0x00001E0E  _Case3                                     4  Code  Lc  SEGGER_RTT_ASM_ARMv7M.o
+  0x00001E38  SaveRegs                                   4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001E4A  Skip_VFPSave                               4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001E58  SaveCompletedCM4F                          4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001E76  Skip_VFPRestore                            4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001E88  RestorePreemptive                          4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001E96  RestoreCooperative                         4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001E98  StartIdleCM4F                              4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001EE4  SkipSaveMainContext                        4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001F12  Loop                                       4  Code  Lc  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00001F5C  OS_Switch_End                              4  Code  Gb  RTOS.o (libos_v7m_t_vfpv4_le_dp.a)
+  0x00004F58  __ctors_start__                               ----  Gb  [ Linker created ]
+  0x00004F5C  __ctors_end__                                 ----  Gb  [ Linker created ]
+  0x00005046  __FLASH1_segment_used_end__
+                                                            ----  Gb  [ Linker created ]
+  0x00005046  __FLASH1_segment_used_size__
+                                                            ----  Gb  [ Linker created ]
+  0x00005046  __FLASH_segment_used_end__
+                                                            ----  Gb  [ Linker created ]
+  0x00005046  __FLASH_segment_used_size__
+                                                            ----  Gb  [ Linker created ]
+  0x00040000  __CODE_RAM1_segment_size__
+                                                            ----  Gb  [ Linker created ]
+  0x00040000  __RAM1_segment_size__                         ----  Gb  [ Linker created ]
+  0x00040000  __RAM1_segment_used_size__
+                                                            ----  Gb  [ Linker created ]
+  0x00040000  __RAM_segment_size__                          ----  Gb  [ Linker created ]
+  0x00040000  __RAM_segment_used_size__                     ----  Gb  [ Linker created ]
+  0x00100000  __FLASH1_segment_end__                        ----  Gb  [ Linker created ]
+  0x00100000  __FLASH1_segment_size__                       ----  Gb  [ Linker created ]
+  0x00100000  __FLASH_segment_end__                         ----  Gb  [ Linker created ]
+  0x00100000  __FLASH_segment_size__                        ----  Gb  [ Linker created ]
+  0x00800000  __CODE_RAM1_segment_start__
+                                                            ----  Gb  [ Linker created ]
+  0x00800000  __CODE_RAM1_segment_used_end__
+                                                            ----  Gb  [ Linker created ]
+  0x00800000  __CODE_RAM1_segment_used_start__
+                                                            ----  Gb  [ Linker created ]
+  0x00840000  __CODE_RAM1_segment_end__                     ----  Gb  [ Linker created ]
+  0x08000000  __EXTFLASH1_segment_size__
+                                                            ----  Gb  [ Linker created ]
+  0x12000000  __EXTFLASH1_segment_start__
+                                                            ----  Gb  [ Linker created ]
+  0x12000000  __EXTFLASH1_segment_used_end__
+                                                            ----  Gb  [ Linker created ]
+  0x12000000  __EXTFLASH1_segment_used_start__
+                                                            ----  Gb  [ Linker created ]
+  0x1A000000  __EXTFLASH1_segment_end__                     ----  Gb  [ Linker created ]
+  0x20000000  __RAM1_segment_start__                        ----  Gb  [ Linker created ]
+  0x20000000  __RAM1_segment_used_start__
+                                                            ----  Gb  [ Linker created ]
+  0x20000000  __RAM_segment_start__                         ----  Gb  [ Linker created ]
+  0x20000000  __RAM_segment_used_start__
+                                                            ----  Gb  [ Linker created ]
+  0x20001100  __heap_start__                                ----  Gb  [ Linker created ]
+  0x20001500  __heap_end__                                  ----  Gb  [ Linker created ]
+  0x2003FC00  __stack_start__                               ----  Gb  [ Linker created ]
+  0x20040000  __RAM1_segment_end__                          ----  Gb  [ Linker created ]
+  0x20040000  __RAM1_segment_used_end__                     ----  Gb  [ Linker created ]
+  0x20040000  __RAM_segment_end__                           ----  Gb  [ Linker created ]
+  0x20040000  __RAM_segment_used_end__                      ----  Gb  [ Linker created ]
+  0x20040000  __stack_end__                                 ----  Gb  [ Linker created ]
+
+
+***********************************************************************************************
+***                                                                                         ***
+***                                      LINK SUMMARY                                       ***
+***                                                                                         ***
+***********************************************************************************************
+
+Memory breakdown:
+
+   20 146 bytes read-only  code
+      398 bytes read-only  data
+    6 396 bytes read-write data
+
+Region summary:
+
+  Name        Range                    Size                Used              Unused      Alignment Loss
+  ----------  -----------------  ----------  ------------------  ------------------  ------------------
+  FLASH       00000000-000fffff   1 048 576      20 548   1.96%   1 028 028  98.04%           0   0.00%
+  RAM         20000000-2003ffff     262 144       6 396   2.44%     255 748  97.56%           0   0.00%
+
+Link complete: 0 errors, 0 warnings, 0 remarks
