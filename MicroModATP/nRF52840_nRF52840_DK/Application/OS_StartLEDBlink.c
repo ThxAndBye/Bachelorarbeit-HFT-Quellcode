@@ -33,6 +33,7 @@ Purpose : embOS sample program running two simple tasks, each toggling
 
 #include "BSP.h"
 #include "RTOS.h"
+#include "SEGGER_SYSVIEW_embOS.h"
 #include <stdio.h>
 #include <stdint.h>
 
@@ -68,12 +69,13 @@ static void LPTask(void) {
 *       main()
 */
 int main(void) {
-  OS_Init();   // Initialize embOS
-  OS_InitHW(); // Initialize required hardware
-  BSP_Init();  // Initialize LED port
+  OS_Init();              // Initialize embOS
+  OS_InitHW();            // Initialize required hardware
+  BSP_Init();             // Initialize LED port
+  SEGGER_SYSVIEW_Conf();  // Configure and initialize SystemView
   OS_TASK_CREATE(&TCBHP, "HP Task", 100, HPTask, StackHP);
   OS_TASK_CREATE(&TCBLP, "LP Task", 50, LPTask, StackLP);
-  OS_Start(); // Start embOS
+  OS_Start();             // Start embOS
   return 0;
 }
 

@@ -226,7 +226,7 @@ extern "C" {
 *    Value has to be lower than SEGGER_RTT_MAX_NUM_UP_BUFFERS.
 */
 #ifndef   SEGGER_SYSVIEW_RTT_CHANNEL
-  #define SEGGER_SYSVIEW_RTT_CHANNEL              0
+  #define SEGGER_SYSVIEW_RTT_CHANNEL              2
 #endif
 // Sanity check of RTT channel
 #if (SEGGER_SYSVIEW_RTT_CHANNEL == 0) && (SEGGER_RTT_MAX_NUM_UP_BUFFERS < 2)
